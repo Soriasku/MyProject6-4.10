@@ -1,0 +1,873 @@
+﻿[2016.01.30-10.30.02:905][  0]Log file open, 01/30/16 10:30:02
+[2016.01.30-10.30.02:905][  0]LogInit:Display: Running engine for game: MyProject6
+[2016.01.30-10.30.02:905][  0]LogPlatformFile: Not using cached read wrapper
+[2016.01.30-10.30.02:905][  0]LogInit:Display: RandInit(-980099576) SRandInit(-980099574).
+[2016.01.30-10.30.02:905][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.30-10.30.02:905][  0]LogStats: Stats thread started at 0.087985
+[2016.01.30-10.30.02:905][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.01.30-10.30.02:905][  0]LogInit: API Version: 2758231
+[2016.01.30-10.30.02:905][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.01.30-10.30.02:905][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.01.30-10.30.02:905][  0]LogInit: Build Configuration: Development
+[2016.01.30-10.30.02:905][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.01.30-10.30.02:905][  0]LogInit: Command line: 
+[2016.01.30-10.30.02:905][  0]LogInit: Base directory: E:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.01.30-10.30.02:905][  0]LogInit: Rocket: 1
+[2016.01.30-10.30.02:913][  0]LogInit: Using libcurl 7.41.0
+[2016.01.30-10.30.02:913][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.30-10.30.02:913][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.30-10.30.02:913][  0]LogInit:  - other features:
+[2016.01.30-10.30.02:913][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.30-10.30.02:913][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.30-10.30.02:913][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.30-10.30.02:913][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.30-10.30.02:913][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.30-10.30.02:913][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.30-10.30.02:913][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.30-10.30.02:913][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.30-10.30.02:913][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.30-10.30.02:913][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.30-10.30.02:921][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.30-10.30.02:930][  0]LogInit: Object subsystem initialized
+[2016.01.30-10.30.02:931][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set ('Scalability' has a lower priority than 'ProjectSetting')
+[2016.01.30-10.30.02:931][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.30-10.30.02:931][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.30-10.30.02:942][  0]LogInit: Computer: RAGNAROK
+[2016.01.30-10.30.02:942][  0]LogInit: User: Joe
+[2016.01.30-10.30.02:942][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.30-10.30.02:942][  0]LogInit: High frequency timer resolution =3.919529 MHz
+[2016.01.30-10.30.02:942][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.01.30-10.30.02:942][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.30-10.30.02:942][  0]LogMemory: Process Physical Memory: 56.02 MB used, 56.02 MB peak
+[2016.01.30-10.30.02:942][  0]LogMemory: Process Virtual Memory: 58.88 MB used, 58.88 MB peak
+[2016.01.30-10.30.02:942][  0]LogMemory: Physical Memory: 4977.77 MB used, 16282.32 MB total
+[2016.01.30-10.30.02:942][  0]LogMemory: Virtual Memory: 381.52 MB used, 134217728.00 MB total
+[2016.01.30-10.30.02:979][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.01.30-10.30.03:562][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 780 Ti  (Feature Level 11_0)
+[2016.01.30-10.30.03:562][  0]LogD3D11RHI: Adapter has 3013MB of dedicated video memory, 0MB of dedicated system memory, and 8141MB of shared system memory, 1 output[s]
+[2016.01.30-10.30.03:563][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.01.30-10.30.03:563][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8141MB of shared system memory, 0 output[s]
+[2016.01.30-10.30.03:563][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.30-10.30.03:569][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.30-10.30.03:570][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.30-10.30.03:588][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.30-10.30.03:600][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Intermediate/Shaders/WorkingDirectory/8980/).
+[2016.01.30-10.30.03:600][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Joe/AppData/Local/Temp/UnrealShaderWorkingDir/B493BFE84F48C2C9107668A4AA39DEF5/'.
+[2016.01.30-10.30.03:600][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.30-10.30.04:588][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.30-10.30.04:594][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.30-10.30.04:600][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.30-10.30.04:609][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.30-10.30.04:615][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.30-10.30.04:619][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.30-10.30.04:625][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.30-10.30.04:631][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.30-10.30.04:636][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.30-10.30.04:642][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.30-10.30.04:649][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.30-10.30.04:663][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.01.30-10.30.04:663][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.30-10.30.04:664][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.30-10.30.04:684][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.30-10.30.04:687][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.30-10.30.04:691][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.30-10.30.04:694][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.30-10.30.04:694][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.30-10.30.04:801][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.30-10.30.04:880][  0]LogDerivedDataCache: Loaded boot cache 0.08s 41MB C:/Users/Joe/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.01.30-10.30.04:880][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Joe/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.01.30-10.30.04:880][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.30-10.30.04:880][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.30-10.30.04:880][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.30-10.30.04:880][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.30-10.30.04:956][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.30-10.30.04:969][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Joe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.30-10.30.05:241][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.30-10.30.05:248][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.30-10.30.05:389][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.30-10.30.05:389][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.30-10.30.05:658][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.30-10.30.06:575][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.30-10.30.06:681][  0]LogAssetRegistry: FAssetRegistry took 0.0111 seconds to start up
+[2016.01.30-10.30.06:913][  0]SourceControl: Info Source control is disabled
+[2016.01.30-10.30.06:914][  0]SourceControl: Info Source control is disabled
+[2016.01.30-10.30.06:931][  0]SourceControl: Info Source control is disabled
+[2016.01.30-10.30.06:949][  0]SourceControl: Info Source control is disabled
+[2016.01.30-10.30.07:308][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.01.30-10.30.07:309][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.01.30-10.30.07:382][  0]LogEngine: Initializing Engine...
+[2016.01.30-10.30.07:386][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.01.30-10.30.07:395][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2016.01.30-10.30.07:569][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.30-10.30.07:593][  0]LogInit: XAudio2 using 'Headset (4- SB Tactic3D Rage Wireless)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.30-10.30.07:607][  0]LogInit: FAudioDevice initialized.
+[2016.01.30-10.30.07:643][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/Joe/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.01.30-10.30.07:656][  0]LogInit: Texture streaming: Enabled
+[2016.01.30-10.30.07:664][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.30-10.30.07:664][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.01.30-10.30.07:664][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 32b4a5f24472a1a37f9770b8873341fc|b8f1d4b6f9934d789072be7fdede4a71|feb1f61d-5633-4d4e-873d-f67e40539e45
+[2016.01.30-10.30.07:664][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.30-10.30.07:679][  0]LogInit: Transaction tracking system initialized
+[2016.01.30-10.30.07:716][  0]BlueprintLog: New page: Editor Load
+[2016.01.30-10.30.07:825][  0]LocalizationService: Info Localization service is disabled
+[2016.01.30-10.30.07:920][  0]LogConsoleResponse:Display: 
+[2016.01.30-10.30.08:054][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.30-10.30.08:145][  0]SourceControl: Info Source control is disabled
+[2016.01.30-10.30.08:145][  0]Cmd: MAP LOAD FILE="C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.30-10.30.08:145][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Content/' took 0.10s
+[2016.01.30-10.30.08:145][  0]LightingResults: New page: Lighting Build
+[2016.01.30-10.30.08:150][  0]MapCheck: New page: Map Check
+[2016.01.30-10.30.08:150][  0]LightingResults: New page: Lighting Build
+[2016.01.30-10.30.08:166][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F37501FB00
+[2016.01.30-10.30.08:486][  0]LogAIModule: Creating AISystem for world Example_Map
+[2016.01.30-10.30.08:492][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.30-10.30.08:504][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.30-10.30.08:562][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.537ms to complete.
+[2016.01.30-10.30.08:562][  0]LogFileHelpers: Loading map 'Example_Map' took 0.417
+[2016.01.30-10.30.08:714][  0]LogCollectionManager: Loaded 0 collections in 0.004181 seconds
+[2016.01.30-10.30.08:756][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Saved/Collections/' took 0.01s
+[2016.01.30-10.30.08:756][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Content/Developers/Joe/Collections/' took 0.01s
+[2016.01.30-10.30.08:756][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Content/Collections/' took 0.01s
+[2016.01.30-10.30.08:756][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.01.30-10.30.08:767][  0]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 1893 classes and 338 folders.
+[2016.01.30-10.30.08:777][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.01.30-10.30.08:834][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.01.30-10.30.08:841][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.01.30-10.30.08:869][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.30-10.30.08:874][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.30-10.30.08:897][  0]LogLoad: Full Startup: 6.46 seconds (BP compile: 0.05 seconds)
+[2016.01.30-10.30.08:906][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.30-10.30.08:909][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.01.30-10.30.08:947][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.01.30-10.30.09:115][  0]LogRenderer: Reallocating scene render targets to support 1616x808 (Frame:2).
+[2016.01.30-10.30.09:316][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.01.30-10.30.09:674][ 12]LogAssetRegistry: Asset discovery search completed in 3.0043 seconds
+[2016.01.30-10.30.09:674][ 12]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2016.01.30-10.30.16:204][675]Cmd: MAP LOAD FILE="C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Content/Maps/Aztec3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.30-10.30.16:226][675]LightingResults: New page: Lighting Build
+[2016.01.30-10.30.16:245][675]LoadErrors: New page: Loading map: Aztec3.umap
+[2016.01.30-10.30.16:262][675]MapCheck: New page: Map Check
+[2016.01.30-10.30.16:262][675]LightingResults: New page: Lighting Build
+[2016.01.30-10.30.16:276][675]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F378CDF060
+[2016.01.30-10.30.16:448][675]LogAIModule: Creating AISystem for world Aztec3
+[2016.01.30-10.30.16:472][675]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.30-10.30.16:561][675]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.30-10.30.16:672][675]MapCheck:Warning: Warning Polys_2168 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush2.Model_11.Polys_2168 : Externally referenced 
+[2016.01.30-10.30.16:672][675]MapCheck:Warning: Warning Model_0 Model /Game/Maps/Aztec3.Aztec3:PersistentLevel.Model_0 : Externally referenced 
+[2016.01.30-10.30.16:672][675]MapCheck:Warning: Warning ModelComponent_67946 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67946 : Externally referenced 
+[2016.01.30-10.30.16:672][675]MapCheck:Warning: Warning ModelComponent_67945 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67945 : Externally referenced 
+[2016.01.30-10.30.16:673][675]MapCheck:Warning: Warning ModelComponent_67944 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67944 : Externally referenced 
+[2016.01.30-10.30.16:673][675]MapCheck:Warning: Warning ModelComponent_67943 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67943 : Externally referenced 
+[2016.01.30-10.30.16:673][675]MapCheck:Warning: Warning ModelComponent_67940 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67940 : Externally referenced 
+[2016.01.30-10.30.16:673][675]MapCheck:Warning: Warning ModelComponent_67939 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67939 : Externally referenced 
+[2016.01.30-10.30.16:673][675]MapCheck:Warning: Warning ModelComponent_67932 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67932 : Externally referenced 
+[2016.01.30-10.30.16:673][675]MapCheck:Warning: Warning ModelComponent_67931 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67931 : Externally referenced 
+[2016.01.30-10.30.16:673][675]MapCheck:Warning: Warning ModelComponent_67930 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67930 : Externally referenced 
+[2016.01.30-10.30.16:673][675]MapCheck:Warning: Warning ModelComponent_67913 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67913 : Externally referenced 
+[2016.01.30-10.30.16:673][675]MapCheck:Warning: Warning Polys_89675 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.CurvedStairBrush3.Model_5.Polys_89675 : Externally referenced 
+[2016.01.30-10.30.16:674][675]MapCheck:Warning: Warning Polys_84979 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.CurvedStairBrush2.Model_5.Polys_84979 : Externally referenced 
+[2016.01.30-10.30.16:674][675]MapCheck:Warning: Warning Polys_75847 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.CurvedStairBrush.Model_5.Polys_75847 : Externally referenced 
+[2016.01.30-10.30.16:674][675]MapCheck:Warning: Warning Model_0 Model /Game/Maps/Aztec3.Aztec3:PersistentLevel.Model_0 : Externally referenced 
+[2016.01.30-10.30.16:674][675]MapCheck:Warning: Warning ModelComponent_67963 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67963 : Externally referenced 
+[2016.01.30-10.30.16:674][675]MapCheck:Warning: Warning ModelComponent_67959 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67959 : Externally referenced 
+[2016.01.30-10.30.16:674][675]MapCheck:Warning: Warning ModelComponent_67958 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67958 : Externally referenced 
+[2016.01.30-10.30.16:674][675]MapCheck:Warning: Warning ModelComponent_67957 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67957 : Externally referenced 
+[2016.01.30-10.30.16:674][675]MapCheck:Warning: Warning Polys_2297 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.Wall_W.Model_10.Polys_2297 : Externally referenced 
+[2016.01.30-10.30.16:674][675]MapCheck:Warning: Warning Polys_2049 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.Wall_S.Model_10.Polys_2049 : Externally referenced 
+[2016.01.30-10.30.16:674][675]MapCheck:Warning: Warning Polys_2321 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.Wall_N.Model_10.Polys_2321 : Externally referenced 
+[2016.01.30-10.30.16:675][675]MapCheck:Warning: Warning Polys_2277 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.Wall_E.Model_10.Polys_2277 : Externally referenced 
+[2016.01.30-10.30.16:675][675]MapCheck:Warning: Warning Polys_1051 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.LinearStairBrush.Model_7.Polys_1051 : Externally referenced 
+[2016.01.30-10.30.16:675][675]MapCheck:Warning: Warning Polys_69892 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.Door9.Model_13.Polys_69892 : Externally referenced 
+[2016.01.30-10.30.16:675][675]MapCheck:Warning: Warning Polys_68387 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.Door8.Model_13.Polys_68387 : Externally referenced 
+[2016.01.30-10.30.16:675][675]MapCheck:Warning: Warning Polys_63028 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.Door7.Model_13.Polys_63028 : Externally referenced 
+[2016.01.30-10.30.16:675][675]MapCheck:Warning: Warning Polys_61134 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.Door6.Model_13.Polys_61134 : Externally referenced 
+[2016.01.30-10.30.16:675][675]MapCheck:Warning: Warning Polys_44351 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.Door5.Model_13.Polys_44351 : Externally referenced 
+[2016.01.30-10.30.16:675][675]MapCheck:Warning: Warning Polys_36470 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.Door4.Model_13.Polys_36470 : Externally referenced 
+[2016.01.30-10.30.16:676][675]MapCheck:Warning: Warning Polys_36099 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.Door3.Model_13.Polys_36099 : Externally referenced 
+[2016.01.30-10.30.16:676][675]MapCheck:Warning: Warning Polys_181858 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.Door23.Model_13.Polys_181858 : Externally referenced 
+[2016.01.30-10.30.16:676][675]MapCheck:Warning: Warning Polys_177163 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.Door22.Model_13.Polys_177163 : Externally referenced 
+[2016.01.30-10.30.16:676][675]MapCheck:Warning: Warning Polys_173891 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.Door21.Model_13.Polys_173891 : Externally referenced 
+[2016.01.30-10.30.16:676][675]MapCheck:Warning: Warning Polys_172006 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.Door20.Model_13.Polys_172006 : Externally referenced 
+[2016.01.30-10.30.16:676][675]MapCheck:Warning: Warning Polys_34887 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.Door2.Model_13.Polys_34887 : Externally referenced 
+[2016.01.30-10.30.16:676][675]MapCheck:Warning: Warning Polys_169342 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.Door19.Model_13.Polys_169342 : Externally referenced 
+[2016.01.30-10.30.16:676][675]MapCheck:Warning: Warning Polys_157116 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.Door18.Model_13.Polys_157116 : Externally referenced 
+[2016.01.30-10.30.16:676][675]MapCheck:Warning: Warning Polys_155608 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.Door17.Model_13.Polys_155608 : Externally referenced 
+[2016.01.30-10.30.16:677][675]MapCheck:Warning: Warning Polys_150166 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.Door16.Model_13.Polys_150166 : Externally referenced 
+[2016.01.30-10.30.16:677][675]MapCheck:Warning: Warning Polys_137760 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.Door15.Model_13.Polys_137760 : Externally referenced 
+[2016.01.30-10.30.16:677][675]MapCheck:Warning: Warning Polys_136842 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.Door14.Model_13.Polys_136842 : Externally referenced 
+[2016.01.30-10.30.16:677][675]MapCheck:Warning: Warning Polys_125198 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.Door13.Model_13.Polys_125198 : Externally referenced 
+[2016.01.30-10.30.16:677][675]MapCheck:Warning: Warning Polys_124101 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.Door12_106.Model_13.Polys_124101 : Externally referenced 
+[2016.01.30-10.30.16:677][675]MapCheck:Warning: Warning Polys_96415 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.Door11.Model_13.Polys_96415 : Externally referenced 
+[2016.01.30-10.30.16:677][675]MapCheck:Warning: Warning Polys_75153 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.Door10.Model_13.Polys_75153 : Externally referenced 
+[2016.01.30-10.30.16:677][675]MapCheck:Warning: Warning Polys_3432 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.Door.Model_13.Polys_3432 : Externally referenced 
+[2016.01.30-10.30.16:677][675]MapCheck:Warning: Warning Polys_174977 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.CylinderBrush5.Model_4.Polys_174977 : Externally referenced 
+[2016.01.30-10.30.16:677][675]MapCheck:Warning: Warning Polys_135024 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.CylinderBrush4.Model_4.Polys_135024 : Externally referenced 
+[2016.01.30-10.30.16:678][675]MapCheck:Warning: Warning Polys_67725 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.CylinderBrush3.Model_4.Polys_67725 : Externally referenced 
+[2016.01.30-10.30.16:678][675]MapCheck:Warning: Warning Polys_65767 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.CylinderBrush2.Model_4.Polys_65767 : Externally referenced 
+[2016.01.30-10.30.16:678][675]MapCheck:Warning: Warning Polys_42957 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.CylinderBrush.Model_4.Polys_42957 : Externally referenced 
+[2016.01.30-10.30.16:678][675]MapCheck:Warning: Warning Polys_165160 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush99.Model_15.Polys_165160 : Externally referenced 
+[2016.01.30-10.30.16:678][675]MapCheck:Warning: Warning Polys_163102 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush98.Model_15.Polys_163102 : Externally referenced 
+[2016.01.30-10.30.16:678][675]MapCheck:Warning: Warning Polys_158889 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush97.Model_15.Polys_158889 : Externally referenced 
+[2016.01.30-10.30.16:678][675]MapCheck:Warning: Warning Polys_153614 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush96.Model_15.Polys_153614 : Externally referenced 
+[2016.01.30-10.30.16:678][675]MapCheck:Warning: Warning Polys_151883 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush95.Model_15.Polys_151883 : Externally referenced 
+[2016.01.30-10.30.16:678][675]MapCheck:Warning: Warning Polys_147248 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush94.Model_15.Polys_147248 : Externally referenced 
+[2016.01.30-10.30.16:679][675]MapCheck:Warning: Warning Polys_144113 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush93.Model_15.Polys_144113 : Externally referenced 
+[2016.01.30-10.30.16:679][675]MapCheck:Warning: Warning Polys_143633 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush92.Model_15.Polys_143633 : Externally referenced 
+[2016.01.30-10.30.16:679][675]MapCheck:Warning: Warning Polys_141498 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush91.Model_15.Polys_141498 : Externally referenced 
+[2016.01.30-10.30.16:679][675]MapCheck:Warning: Warning Polys_139851 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush90.Model_15.Polys_139851 : Externally referenced 
+[2016.01.30-10.30.16:679][675]MapCheck:Warning: Warning Polys_1512 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush9.Model_15.Polys_1512 : Externally referenced 
+[2016.01.30-10.30.16:679][675]MapCheck:Warning: Warning Polys_138917 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush89.Model_15.Polys_138917 : Externally referenced 
+[2016.01.30-10.30.16:679][675]MapCheck:Warning: Warning Polys_131647 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush88.Model_15.Polys_131647 : Externally referenced 
+[2016.01.30-10.30.16:679][675]MapCheck:Warning: Warning Polys_127631 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush87.Model_15.Polys_127631 : Externally referenced 
+[2016.01.30-10.30.16:679][675]MapCheck:Warning: Warning Polys_119942 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush86.Model_15.Polys_119942 : Externally referenced 
+[2016.01.30-10.30.16:680][675]MapCheck:Warning: Warning Polys_118421 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush85.Model_15.Polys_118421 : Externally referenced 
+[2016.01.30-10.30.16:680][675]MapCheck:Warning: Warning Polys_117774 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush84.Model_15.Polys_117774 : Externally referenced 
+[2016.01.30-10.30.16:680][675]MapCheck:Warning: Warning Polys_116920 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush83.Model_15.Polys_116920 : Externally referenced 
+[2016.01.30-10.30.16:680][675]MapCheck:Warning: Warning Polys_115230 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush82.Model_15.Polys_115230 : Externally referenced 
+[2016.01.30-10.30.16:680][675]MapCheck:Warning: Warning Polys_111056 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush81.Model_15.Polys_111056 : Externally referenced 
+[2016.01.30-10.30.16:680][675]MapCheck:Warning: Warning Polys_105109 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush80.Model_15.Polys_105109 : Externally referenced 
+[2016.01.30-10.30.16:680][675]MapCheck:Warning: Warning Polys_314 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush8.Model_15.Polys_314 : Externally referenced 
+[2016.01.30-10.30.16:680][675]MapCheck:Warning: Warning Polys_104498 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush79.Model_15.Polys_104498 : Externally referenced 
+[2016.01.30-10.30.16:680][675]MapCheck:Warning: Warning Polys_102687 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush78.Model_15.Polys_102687 : Externally referenced 
+[2016.01.30-10.30.16:681][675]MapCheck:Warning: Warning Polys_101491 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush77.Model_15.Polys_101491 : Externally referenced 
+[2016.01.30-10.30.16:681][675]MapCheck:Warning: Warning Polys_100307 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush76.Model_15.Polys_100307 : Externally referenced 
+[2016.01.30-10.30.16:681][675]MapCheck:Warning: Warning Polys_97575 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush75.Model_15.Polys_97575 : Externally referenced 
+[2016.01.30-10.30.16:681][675]MapCheck:Warning: Warning Polys_94312 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush74.Model_15.Polys_94312 : Externally referenced 
+[2016.01.30-10.30.16:681][675]MapCheck:Warning: Warning Polys_93365 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush73.Model_15.Polys_93365 : Externally referenced 
+[2016.01.30-10.30.16:681][675]MapCheck:Warning: Warning Polys_92615 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush72.Model_15.Polys_92615 : Externally referenced 
+[2016.01.30-10.30.16:681][675]MapCheck:Warning: Warning Polys_91873 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush71.Model_15.Polys_91873 : Externally referenced 
+[2016.01.30-10.30.16:681][675]MapCheck:Warning: Warning Polys_86234 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush70.Model_15.Polys_86234 : Externally referenced 
+[2016.01.30-10.30.16:681][675]MapCheck:Warning: Warning Polys_258 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush7.Model_15.Polys_258 : Externally referenced 
+[2016.01.30-10.30.16:682][675]MapCheck:Warning: Warning Polys_83915 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush69.Model_15.Polys_83915 : Externally referenced 
+[2016.01.30-10.30.16:682][675]MapCheck:Warning: Warning Polys_73612 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush68.Model_15.Polys_73612 : Externally referenced 
+[2016.01.30-10.30.16:682][675]MapCheck:Warning: Warning Polys_62549 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush67.Model_15.Polys_62549 : Externally referenced 
+[2016.01.30-10.30.16:682][675]MapCheck:Warning: Warning Polys_58187 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush66.Model_15.Polys_58187 : Externally referenced 
+[2016.01.30-10.30.16:682][675]MapCheck:Warning: Warning Polys_57114 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush65.Model_15.Polys_57114 : Externally referenced 
+[2016.01.30-10.30.16:682][675]MapCheck:Warning: Warning Polys_54243 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush64.Model_15.Polys_54243 : Externally referenced 
+[2016.01.30-10.30.16:682][675]MapCheck:Warning: Warning Polys_51559 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush63.Model_15.Polys_51559 : Externally referenced 
+[2016.01.30-10.30.16:682][675]MapCheck:Warning: Warning Polys_47658 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush62.Model_15.Polys_47658 : Externally referenced 
+[2016.01.30-10.30.16:682][675]MapCheck:Warning: Warning Polys_45916 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush61.Model_15.Polys_45916 : Externally referenced 
+[2016.01.30-10.30.16:682][675]MapCheck:Warning: Warning Polys_45199 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush60.Model_15.Polys_45199 : Externally referenced 
+[2016.01.30-10.30.16:682][675]MapCheck:Warning: Warning Polys_206 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush6.Model_15.Polys_206 : Externally referenced 
+[2016.01.30-10.30.16:682][675]MapCheck:Warning: Warning Polys_41996 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush59.Model_15.Polys_41996 : Externally referenced 
+[2016.01.30-10.30.16:682][675]MapCheck:Warning: Warning Polys_39834 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush58.Model_15.Polys_39834 : Externally referenced 
+[2016.01.30-10.30.16:682][675]MapCheck:Warning: Warning Polys_39300 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush57.Model_15.Polys_39300 : Externally referenced 
+[2016.01.30-10.30.16:682][675]MapCheck:Warning: Warning Polys_38643 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush56.Model_15.Polys_38643 : Externally referenced 
+[2016.01.30-10.30.16:683][675]MapCheck:Warning: Warning Polys_37609 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush55.Model_15.Polys_37609 : Externally referenced 
+[2016.01.30-10.30.16:683][675]MapCheck:Warning: Warning Polys_36972 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush54.Model_15.Polys_36972 : Externally referenced 
+[2016.01.30-10.30.16:683][675]MapCheck:Warning: Warning Polys_33576 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush53.Model_15.Polys_33576 : Externally referenced 
+[2016.01.30-10.30.16:683][675]MapCheck:Warning: Warning Polys_32755 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush52.Model_15.Polys_32755 : Externally referenced 
+[2016.01.30-10.30.16:683][675]MapCheck:Warning: Warning Polys_32638 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush51.Model_15.Polys_32638 : Externally referenced 
+[2016.01.30-10.30.16:683][675]MapCheck:Warning: Warning Polys_31732 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush50.Model_15.Polys_31732 : Externally referenced 
+[2016.01.30-10.30.16:683][675]MapCheck:Warning: Warning Polys_135 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush5.Model_15.Polys_135 : Externally referenced 
+[2016.01.30-10.30.16:683][675]MapCheck:Warning: Warning Polys_30842 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush49.Model_15.Polys_30842 : Externally referenced 
+[2016.01.30-10.30.16:683][675]MapCheck:Warning: Warning Polys_29205 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush48.Model_15.Polys_29205 : Externally referenced 
+[2016.01.30-10.30.16:683][675]MapCheck:Warning: Warning Polys_28240 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush47.Model_15.Polys_28240 : Externally referenced 
+[2016.01.30-10.30.16:683][675]MapCheck:Warning: Warning Polys_23093 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush46.Model_15.Polys_23093 : Externally referenced 
+[2016.01.30-10.30.16:683][675]MapCheck:Warning: Warning Polys_22164 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush45.Model_15.Polys_22164 : Externally referenced 
+[2016.01.30-10.30.16:683][675]MapCheck:Warning: Warning Polys_20950 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush44.Model_15.Polys_20950 : Externally referenced 
+[2016.01.30-10.30.16:683][675]MapCheck:Warning: Warning Polys_19661 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush43.Model_15.Polys_19661 : Externally referenced 
+[2016.01.30-10.30.16:683][675]MapCheck:Warning: Warning Polys_18883 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush42.Model_15.Polys_18883 : Externally referenced 
+[2016.01.30-10.30.16:683][675]MapCheck:Warning: Warning Polys_18216 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush41.Model_15.Polys_18216 : Externally referenced 
+[2016.01.30-10.30.16:683][675]MapCheck:Warning: Warning Polys_17656 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush40.Model_15.Polys_17656 : Externally referenced 
+[2016.01.30-10.30.16:683][675]MapCheck:Warning: Warning Polys_7 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush4.Model_15.Polys_7 : Externally referenced 
+[2016.01.30-10.30.16:683][675]MapCheck:Warning: Warning Polys_16562 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush39.Model_15.Polys_16562 : Externally referenced 
+[2016.01.30-10.30.16:683][675]MapCheck:Warning: Warning Polys_15759 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush38.Model_15.Polys_15759 : Externally referenced 
+[2016.01.30-10.30.16:684][675]MapCheck:Warning: Warning Polys_15148 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush37.Model_15.Polys_15148 : Externally referenced 
+[2016.01.30-10.30.16:684][675]MapCheck:Warning: Warning Polys_14806 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush36.Model_15.Polys_14806 : Externally referenced 
+[2016.01.30-10.30.16:684][675]MapCheck:Warning: Warning Polys_14057 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush35.Model_15.Polys_14057 : Externally referenced 
+[2016.01.30-10.30.16:684][675]MapCheck:Warning: Warning Polys_13812 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush34.Model_15.Polys_13812 : Externally referenced 
+[2016.01.30-10.30.16:684][675]MapCheck:Warning: Warning Polys_12862 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush33.Model_15.Polys_12862 : Externally referenced 
+[2016.01.30-10.30.16:684][675]MapCheck:Warning: Warning Polys_12398 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush32.Model_15.Polys_12398 : Externally referenced 
+[2016.01.30-10.30.16:684][675]MapCheck:Warning: Warning Polys_12021 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush31.Model_15.Polys_12021 : Externally referenced 
+[2016.01.30-10.30.16:684][675]MapCheck:Warning: Warning Polys_11362 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush30.Model_15.Polys_11362 : Externally referenced 
+[2016.01.30-10.30.16:684][675]MapCheck:Warning: Warning Polys_4403 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush3.Model_15.Polys_4403 : Externally referenced 
+[2016.01.30-10.30.16:684][675]MapCheck:Warning: Warning Polys_10721 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush29.Model_15.Polys_10721 : Externally referenced 
+[2016.01.30-10.30.16:684][675]MapCheck:Warning: Warning Polys_10374 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush28.Model_15.Polys_10374 : Externally referenced 
+[2016.01.30-10.30.16:684][675]MapCheck:Warning: Warning Polys_9367 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush27.Model_15.Polys_9367 : Externally referenced 
+[2016.01.30-10.30.16:684][675]MapCheck:Warning: Warning Polys_8715 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush26.Model_15.Polys_8715 : Externally referenced 
+[2016.01.30-10.30.16:684][675]MapCheck:Warning: Warning Polys_8461 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush25.Model_15.Polys_8461 : Externally referenced 
+[2016.01.30-10.30.16:684][675]MapCheck:Warning: Warning Polys_7178 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush24.Model_15.Polys_7178 : Externally referenced 
+[2016.01.30-10.30.16:684][675]MapCheck:Warning: Warning Polys_6763 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush23.Model_15.Polys_6763 : Externally referenced 
+[2016.01.30-10.30.16:685][675]MapCheck:Warning: Warning Polys_6362 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush22.Model_15.Polys_6362 : Externally referenced 
+[2016.01.30-10.30.16:685][675]MapCheck:Warning: Warning Polys_6085 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush21.Model_15.Polys_6085 : Externally referenced 
+[2016.01.30-10.30.16:685][675]MapCheck:Warning: Warning Polys_5341 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush20.Model_15.Polys_5341 : Externally referenced 
+[2016.01.30-10.30.16:685][675]MapCheck:Warning: Warning Polys_2168 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush2.Model_11.Polys_2168 : Externally referenced 
+[2016.01.30-10.30.16:685][675]MapCheck:Warning: Warning Polys_5084 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush19.Model_15.Polys_5084 : Externally referenced 
+[2016.01.30-10.30.16:685][675]MapCheck:Warning: Warning Polys_4494 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush18.Model_15.Polys_4494 : Externally referenced 
+[2016.01.30-10.30.16:685][675]MapCheck:Warning: Warning Polys_4351 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush17.Model_15.Polys_4351 : Externally referenced 
+[2016.01.30-10.30.16:685][675]MapCheck:Warning: Warning Polys_3809 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush16.Model_15.Polys_3809 : Externally referenced 
+[2016.01.30-10.30.16:685][675]MapCheck:Warning: Warning Polys_3549 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush15.Model_15.Polys_3549 : Externally referenced 
+[2016.01.30-10.30.16:685][675]MapCheck:Warning: Warning Polys_2891 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush14.Model_15.Polys_2891 : Externally referenced 
+[2016.01.30-10.30.16:685][675]MapCheck:Warning: Warning Polys_2811 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush13.Model_15.Polys_2811 : Externally referenced 
+[2016.01.30-10.30.16:685][675]MapCheck:Warning: Warning Polys_2513 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush12.Model_15.Polys_2513 : Externally referenced 
+[2016.01.30-10.30.16:685][675]MapCheck:Warning: Warning Polys_1892 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush11.Model_15.Polys_1892 : Externally referenced 
+[2016.01.30-10.30.16:685][675]MapCheck:Warning: Warning Polys_179640 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush103.Model_15.Polys_179640 : Externally referenced 
+[2016.01.30-10.30.16:685][675]MapCheck:Warning: Warning Polys_170669 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush102.Model_15.Polys_170669 : Externally referenced 
+[2016.01.30-10.30.16:685][675]MapCheck:Warning: Warning Polys_167762 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush101.Model_15.Polys_167762 : Externally referenced 
+[2016.01.30-10.30.16:685][675]MapCheck:Warning: Warning Polys_166716 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush100.Model_15.Polys_166716 : Externally referenced 
+[2016.01.30-10.30.16:685][675]MapCheck:Warning: Warning Polys_1824 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush10.Model_15.Polys_1824 : Externally referenced 
+[2016.01.30-10.30.16:685][675]MapCheck:Warning: Warning Polys_3835 Polys /Game/Maps/Aztec3.Aztec3:PersistentLevel.BoxBrush.Model_14.Polys_3835 : Externally referenced 
+[2016.01.30-10.30.16:686][675]MapCheck:Warning: Warning Model_0 Model /Game/Maps/Aztec3.Aztec3:PersistentLevel.Model_0 : Externally referenced 
+[2016.01.30-10.30.16:686][675]MapCheck:Warning: Warning ModelComponent_67971 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67971 : Externally referenced 
+[2016.01.30-10.30.16:686][675]MapCheck:Warning: Warning ModelComponent_67970 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67970 : Externally referenced 
+[2016.01.30-10.30.16:686][675]MapCheck:Warning: Warning ModelComponent_67969 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67969 : Externally referenced 
+[2016.01.30-10.30.16:686][675]MapCheck:Warning: Warning ModelComponent_67968 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67968 : Externally referenced 
+[2016.01.30-10.30.16:686][675]MapCheck:Warning: Warning ModelComponent_67967 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67967 : Externally referenced 
+[2016.01.30-10.30.16:686][675]MapCheck:Warning: Warning ModelComponent_67966 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67966 : Externally referenced 
+[2016.01.30-10.30.16:686][675]MapCheck:Warning: Warning ModelComponent_67965 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67965 : Externally referenced 
+[2016.01.30-10.30.16:686][675]MapCheck:Warning: Warning ModelComponent_67964 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67964 : Externally referenced 
+[2016.01.30-10.30.16:686][675]MapCheck:Warning: Warning ModelComponent_67963 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67963 : Externally referenced 
+[2016.01.30-10.30.16:686][675]MapCheck:Warning: Warning ModelComponent_67962 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67962 : Externally referenced 
+[2016.01.30-10.30.16:686][675]MapCheck:Warning: Warning ModelComponent_67961 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67961 : Externally referenced 
+[2016.01.30-10.30.16:686][675]MapCheck:Warning: Warning ModelComponent_67960 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67960 : Externally referenced 
+[2016.01.30-10.30.16:686][675]MapCheck:Warning: Warning ModelComponent_67959 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67959 : Externally referenced 
+[2016.01.30-10.30.16:686][675]MapCheck:Warning: Warning ModelComponent_67958 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67958 : Externally referenced 
+[2016.01.30-10.30.16:686][675]MapCheck:Warning: Warning ModelComponent_67957 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67957 : Externally referenced 
+[2016.01.30-10.30.16:686][675]MapCheck:Warning: Warning ModelComponent_67956 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67956 : Externally referenced 
+[2016.01.30-10.30.16:686][675]MapCheck:Warning: Warning ModelComponent_67955 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67955 : Externally referenced 
+[2016.01.30-10.30.16:686][675]MapCheck:Warning: Warning ModelComponent_67954 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67954 : Externally referenced 
+[2016.01.30-10.30.16:687][675]MapCheck:Warning: Warning ModelComponent_67953 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67953 : Externally referenced 
+[2016.01.30-10.30.16:687][675]MapCheck:Warning: Warning ModelComponent_67952 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67952 : Externally referenced 
+[2016.01.30-10.30.16:687][675]MapCheck:Warning: Warning ModelComponent_67951 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67951 : Externally referenced 
+[2016.01.30-10.30.16:687][675]MapCheck:Warning: Warning ModelComponent_67950 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67950 : Externally referenced 
+[2016.01.30-10.30.16:687][675]MapCheck:Warning: Warning ModelComponent_67949 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67949 : Externally referenced 
+[2016.01.30-10.30.16:687][675]MapCheck:Warning: Warning ModelComponent_67948 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67948 : Externally referenced 
+[2016.01.30-10.30.16:687][675]MapCheck:Warning: Warning ModelComponent_67947 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67947 : Externally referenced 
+[2016.01.30-10.30.16:687][675]MapCheck:Warning: Warning ModelComponent_67942 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67942 : Externally referenced 
+[2016.01.30-10.30.16:687][675]MapCheck:Warning: Warning ModelComponent_67941 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67941 : Externally referenced 
+[2016.01.30-10.30.16:687][675]MapCheck:Warning: Warning ModelComponent_67938 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67938 : Externally referenced 
+[2016.01.30-10.30.16:687][675]MapCheck:Warning: Warning ModelComponent_67937 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67937 : Externally referenced 
+[2016.01.30-10.30.16:687][675]MapCheck:Warning: Warning ModelComponent_67936 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67936 : Externally referenced 
+[2016.01.30-10.30.16:687][675]MapCheck:Warning: Warning ModelComponent_67935 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67935 : Externally referenced 
+[2016.01.30-10.30.16:687][675]MapCheck:Warning: Warning ModelComponent_67934 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67934 : Externally referenced 
+[2016.01.30-10.30.16:687][675]MapCheck:Warning: Warning ModelComponent_67933 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67933 : Externally referenced 
+[2016.01.30-10.30.16:687][675]MapCheck:Warning: Warning ModelComponent_67932 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67932 : Externally referenced 
+[2016.01.30-10.30.16:687][675]MapCheck:Warning: Warning ModelComponent_67931 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67931 : Externally referenced 
+[2016.01.30-10.30.16:687][675]MapCheck:Warning: Warning ModelComponent_67929 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67929 : Externally referenced 
+[2016.01.30-10.30.16:687][675]MapCheck:Warning: Warning ModelComponent_67928 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67928 : Externally referenced 
+[2016.01.30-10.30.16:688][675]MapCheck:Warning: Warning ModelComponent_67927 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67927 : Externally referenced 
+[2016.01.30-10.30.16:688][675]MapCheck:Warning: Warning ModelComponent_67926 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67926 : Externally referenced 
+[2016.01.30-10.30.16:688][675]MapCheck:Warning: Warning ModelComponent_67917 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67917 : Externally referenced 
+[2016.01.30-10.30.16:688][675]MapCheck:Warning: Warning ModelComponent_67925 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67925 : Externally referenced 
+[2016.01.30-10.30.16:688][675]MapCheck:Warning: Warning ModelComponent_67916 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67916 : Externally referenced 
+[2016.01.30-10.30.16:688][675]MapCheck:Warning: Warning ModelComponent_67915 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67915 : Externally referenced 
+[2016.01.30-10.30.16:688][675]MapCheck:Warning: Warning ModelComponent_67914 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67914 : Externally referenced 
+[2016.01.30-10.30.16:688][675]MapCheck:Warning: Warning ModelComponent_67913 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67913 : Externally referenced 
+[2016.01.30-10.30.16:688][675]MapCheck:Warning: Warning ModelComponent_67924 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67924 : Externally referenced 
+[2016.01.30-10.30.16:688][675]MapCheck:Warning: Warning ModelComponent_67923 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67923 : Externally referenced 
+[2016.01.30-10.30.16:688][675]MapCheck:Warning: Warning TemplateLabel TextRenderComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.TemplateLabel.NewTextRenderComponent : Externally referenced 
+[2016.01.30-10.30.16:688][675]MapCheck:Warning: Warning ModelComponent_67922 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67922 : Externally referenced 
+[2016.01.30-10.30.16:688][675]MapCheck:Warning: Warning ModelComponent_67921 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67921 : Externally referenced 
+[2016.01.30-10.30.16:688][675]MapCheck:Warning: Warning ModelComponent_67920 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67920 : Externally referenced 
+[2016.01.30-10.30.16:688][675]MapCheck:Warning: Warning ModelComponent_67919 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67919 : Externally referenced 
+[2016.01.30-10.30.16:688][675]MapCheck:Warning: Warning ModelComponent_67918 ModelComponent /Game/Maps/Aztec3.Aztec3:PersistentLevel.ModelComponent_67918 : Externally referenced 
+[2016.01.30-10.30.16:688][675]MapCheck: Info Map check complete: 0 Error(s), 210 Warning(s), took 127.53ms to complete.
+[2016.01.30-10.30.16:700][675]LogFileHelpers: Loading map 'Aztec3' took 0.498
+[2016.01.30-10.30.27:804][805]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2016.01.30-10.30.40:366][ 43]LogTexture:Display: Building textures: T_BG_Mountain_D (AutoDXT)
+[2016.01.30-10.30.46:688][ 43]LogTexture:Display: Building textures: T_BG_Mountain_N (BC5)
+[2016.01.30-10.30.47:468][ 43]LogMaterial: Missing cached shader map for material M_BG_Mountain, compiling. 
+[2016.01.30-10.30.55:587][769]LogTexture:Display: Building textures: T_Enemy_Bear_D (AutoDXT)
+[2016.01.30-10.31.00:886][769]LogTexture:Display: Building textures: T_Enemy_Bear_M (AutoDXT)
+[2016.01.30-10.31.02:809][769]LogTexture:Display: Building textures: T_Enemy_Bear_N (BC5)
+[2016.01.30-10.31.03:519][769]LogMaterial: Missing cached shader map for material M_Bear_Master, compiling. 
+[2016.01.30-10.31.06:461][  0]LogMaterial:Warning: Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Bear/Materials/M_Bear_Master.M_Bear_Master needed to have new flag set bUsedWithLandscape !
+[2016.01.30-10.31.06:464][  0]LogMaterial: Missing cached shader map for material M_Bear_Master, compiling. 
+[2016.01.30-10.31.06:497][  0]LogMaterial: 0.000106 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:497][  0]LogMaterial:Warning: Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Bear/Materials/M_Bear_Master.M_Bear_Master needed to have new flag set bUsedWithStaticLighting !
+[2016.01.30-10.31.06:540][  0]LogMaterial: Missing cached shader map for material M_Bear_Master, compiling. 
+[2016.01.30-10.31.06:573][  0]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:574][  0]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:574][  0]LogMaterial: 0.000048 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:575][  0]LogMaterial: 0.000053 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:575][  0]LogMaterial: 0.000044 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:576][  0]LogMaterial: 0.000052 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:576][  0]LogMaterial: 0.000048 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:577][  0]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:577][  0]LogMaterial: 0.000061 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:578][  0]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:578][  0]LogMaterial: 0.000053 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:578][  0]LogMaterial: 0.000044 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:579][  0]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:579][  0]LogMaterial: 0.000052 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:580][  0]LogMaterial: 0.000052 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:580][  0]LogMaterial: 0.000048 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:581][  0]LogMaterial: 0.000058 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:581][  0]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:581][  0]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:582][  0]LogMaterial: 0.000047 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:582][  0]LogMaterial: 0.000048 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:582][  0]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:583][  0]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:583][  0]LogMaterial: 0.000048 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:584][  0]LogMaterial: 0.000052 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:584][  0]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:585][  0]LogMaterial: 0.000087 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:585][  0]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:586][  0]LogMaterial: 0.000076 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:586][  0]LogMaterial: 0.000082 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:587][  0]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:587][  0]LogMaterial: 0.000082 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:587][  0]LogMaterial: 0.000083 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:588][  0]LogMaterial: 0.000089 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:588][  0]LogMaterial: 0.000218 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:589][  0]LogMaterial: 0.000113 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:589][  0]LogMaterial: 0.000077 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:590][  0]LogMaterial: 0.000052 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:590][  0]LogMaterial: 0.000105 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:591][  0]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:591][  0]LogMaterial: 0.000066 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:592][  0]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:592][  0]LogMaterial: 0.000100 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:593][  0]LogMaterial: 0.000082 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:593][  0]LogMaterial: 0.000103 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:594][  0]LogMaterial: 0.000102 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:594][  0]LogMaterial: 0.000095 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:595][  0]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:595][  0]LogMaterial: 0.000045 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:596][  0]LogMaterial: 0.000042 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:596][  0]LogMaterial: 0.000044 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:596][  0]LogMaterial: 0.000045 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:597][  0]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:597][  0]LogMaterial: 0.000096 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:598][  0]LogMaterial: 0.000100 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:598][  0]LogMaterial: 0.000107 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:599][  0]LogMaterial: 0.000094 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:599][  0]LogMaterial: 0.000090 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:600][  0]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:600][  0]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:601][  0]LogMaterial: 0.000085 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:601][  0]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:602][  0]LogMaterial: 0.000097 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:602][  0]LogMaterial: 0.000076 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:603][  0]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.01.30-10.31.06:653][  0]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2016.01.30-10.31.06:711][  1]Cmd: UpdateLandscapeEditorData
+[2016.01.30-10.36.40:282][543]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.01.30-10.37.02:410][382]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2016.01.30-10.37.04:132][538]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2016.01.30-10.38.22:107][308]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.01.30-10.38.25:280][551]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Aztec3.Aztec3:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3' with GeneratedClass '/Game/Maps/Aztec3.Aztec3_C' with ClassGeneratedBy '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3'
+[2016.01.30-10.38.25:280][551]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.30-10.38.25:280][551]PIE: New page: PIE session: Aztec3 (Jan 30, 2016, 10:38:25 AM)
+[2016.01.30-10.38.25:280][551]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Aztec3
+[2016.01.30-10.38.25:444][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.163352s)
+[2016.01.30-10.38.25:445][551]LogAIModule: Creating AISystem for world Aztec3
+[2016.01.30-10.38.25:445][551]LogPlayLevel: PIE: World Init took: (0.001092s)
+[2016.01.30-10.38.25:445][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Aztec3.Aztec3 to /Game/Maps/UEDPIE_0_Aztec3.Aztec3 (0.164729s)
+[2016.01.30-10.38.25:487][551]LogInit: XAudio2 using 'Headset (4- SB Tactic3D Rage Wireless)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.30-10.38.25:497][551]LogInit: FAudioDevice initialized.
+[2016.01.30-10.38.25:624][551]LogLinker:Warning: Asset 'C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Content/Blueprints/MyProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.30-10.38.25:766][551]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2016.01.30-10.38.25:786][551]LogAnimation:Warning: UAnimMontage::PostLoad: The actual sequence length for montage FPP_Fire_Montage does not match the length stored in the asset, please resave the montage asset.
+[2016.01.30-10.38.25:786][551]BlueprintLog:Warning: Warning Blueprint MyHUD has been migrated and requires re-saving to avoid import errors
+[2016.01.30-10.38.25:790][551]LogWorld: Game class is 'MyGame_C'
+[2016.01.30-10.38.25:815][551]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Aztec3.Aztec3 up for play (max tick rate 0) at 2016.01.30-10.38.25
+[2016.01.30-10.38.25:815][551]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Aztec3.Aztec3:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.30-10.38.25:815][551]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Aztec3.Aztec3:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.30-10.38.25:822][551]LogWorld: Bringing up level for play took: 0.029895
+[2016.01.30-10.38.34:109][551]LoadErrors: Info The Skeleton  HeroFPP_Skeleton is missing bones that SkeletalMesh  HeroFPP needs. They will be added now. Please save the Skeleton!
+[2016.01.30-10.38.34:128][551]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Aztec3 8.201
+[2016.01.30-10.38.34:128][551]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Aztec3.Aztec3:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3' with GeneratedClass '/Game/Maps/Aztec3.Aztec3_C' with ClassGeneratedBy '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3'
+[2016.01.30-10.38.48:273][216]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Aztec3.Aztec3:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3' with GeneratedClass '/Game/Maps/Aztec3.Aztec3_C' with ClassGeneratedBy '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3'
+[2016.01.30-10.38.48:311][216]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Aztec3.Aztec3:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3' with GeneratedClass '/Game/Maps/Aztec3.Aztec3_C' with ClassGeneratedBy '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3'
+[2016.01.30-10.38.48:377][216]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F3000D16C0
+[2016.01.30-10.39.28:676][439]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/HeroFPP" FILE="C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Content/Character/HeroFPP.uasset" SILENT=true
+[2016.01.30-10.39.28:735][439]LogSavePackage: Save=39.846371ms
+[2016.01.30-10.39.28:735][439]LogSavePackage: Moving 'C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Saved/HeroFPP385C63B647922B8113E62CAD5841E105.tmp' to 'C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Content/Character/HeroFPP.uasset'
+[2016.01.30-10.39.28:737][439]LogSavePackage: Total save time: 59.217323ms
+[2016.01.30-10.39.28:737][439]LogSavePackage:Display: Finished SavePackage C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Content/Character/HeroFPP.uasset
+[2016.01.30-10.39.30:987][636]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Aztec3.Aztec3:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3' with GeneratedClass '/Game/Maps/Aztec3.Aztec3_C' with ClassGeneratedBy '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3'
+[2016.01.30-10.39.30:987][636]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.30-10.39.30:987][636]PIE: New page: PIE session: Aztec3 (Jan 30, 2016, 10:39:30 AM)
+[2016.01.30-10.39.30:987][636]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Aztec3
+[2016.01.30-10.39.31:134][636]LogPlayLevel: PIE: StaticDuplicateObject took: (0.146305s)
+[2016.01.30-10.39.31:135][636]LogAIModule: Creating AISystem for world Aztec3
+[2016.01.30-10.39.31:135][636]LogPlayLevel: PIE: World Init took: (0.001081s)
+[2016.01.30-10.39.31:135][636]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Aztec3.Aztec3 to /Game/Maps/UEDPIE_0_Aztec3.Aztec3 (0.147686s)
+[2016.01.30-10.39.31:135][636]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.30-10.39.31:135][636]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-10.39.31:181][636]LogInit: XAudio2 using 'Headset (4- SB Tactic3D Rage Wireless)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.30-10.39.31:191][636]LogInit: FAudioDevice initialized.
+[2016.01.30-10.39.31:227][636]LogWorld: Game class is 'MyGame_C'
+[2016.01.30-10.39.31:249][636]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Aztec3.Aztec3 up for play (max tick rate 0) at 2016.01.30-10.39.31
+[2016.01.30-10.39.31:249][636]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Aztec3.Aztec3:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.30-10.39.31:249][636]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Aztec3.Aztec3:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.30-10.39.31:255][636]LogWorld: Bringing up level for play took: 0.026430
+[2016.01.30-10.39.31:257][636]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Aztec3 -0.669
+[2016.01.30-10.39.31:258][636]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Aztec3.Aztec3:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3' with GeneratedClass '/Game/Maps/Aztec3.Aztec3_C' with ClassGeneratedBy '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3'
+[2016.01.30-10.39.38:307][468]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Aztec3.Aztec3:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3' with GeneratedClass '/Game/Maps/Aztec3.Aztec3_C' with ClassGeneratedBy '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3'
+[2016.01.30-10.39.38:340][468]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Aztec3.Aztec3:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3' with GeneratedClass '/Game/Maps/Aztec3.Aztec3_C' with ClassGeneratedBy '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3'
+[2016.01.30-10.39.38:364][468]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F34789BEC0
+[2016.01.30-10.39.46:224][226]LogContentBrowser: Native class hierarchy updated for 'DestructibleMeshEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.01.30-10.39.46:252][226]LogDestructible:Warning: MainMesh Tris: 528
+[2016.01.30-10.39.46:312][226]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1479) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2016.01.30-10.39.46:312][226]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2016.01.30-10.39.46:367][226]LogApexDestructibleAssetImport:Warning: Using default materials for material slot
+[2016.01.30-10.39.46:378][226]LogApexDestructibleAssetImport:Warning: Bones digested - 2  Depth of hierarchy - 2
+[2016.01.30-10.39.46:426][226]LogSkeletalMesh: Chunk 0: 323 rigid vertices, 0 soft vertices, 1 active bones
+[2016.01.30-10.39.46:435][226]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 528 triangles
+[2016.01.30-10.39.50:036][566]LogDestructible:Warning: MainMesh Tris: 528
+[2016.01.30-10.39.50:052][566]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1479) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2016.01.30-10.39.50:052][566]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2016.01.30-10.39.51:825][566]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1479) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2016.01.30-10.39.51:825][566]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2016.01.30-10.39.52:587][566]LogApexDestructibleAssetImport:Warning: Using default materials for material slot
+[2016.01.30-10.39.52:588][566]LogApexDestructibleAssetImport:Warning: Bones digested - 27  Depth of hierarchy - 2
+[2016.01.30-10.39.52:626][566]LogSkeletalMesh: Chunk 0: 1698 rigid vertices, 0 soft vertices, 22 active bones
+[2016.01.30-10.39.52:626][566]LogSkeletalMesh: Chunk 1: 1802 rigid vertices, 0 soft vertices, 25 active bones
+[2016.01.30-10.39.52:632][566]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 2072 triangles
+[2016.01.30-10.39.52:632][566]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 1250 triangles
+[2016.01.30-10.40.02:103][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/SM_Projectile_DM" FILE="C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Content/Character/SM_Projectile_DM.uasset" SILENT=true
+[2016.01.30-10.40.02:159][523]LogSavePackage: Save=54.247589ms
+[2016.01.30-10.40.02:159][523]LogSavePackage: Moving 'C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Saved/SM_Projectile_DMDDCD07FE4776A3B209D2B5B3AD72AF13.tmp' to 'C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Content/Character/SM_Projectile_DM.uasset'
+[2016.01.30-10.40.02:163][523]LogSavePackage: Total save time: 58.660619ms
+[2016.01.30-10.40.02:163][523]LogSavePackage:Display: Finished SavePackage C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Content/Character/SM_Projectile_DM.uasset
+[2016.01.30-10.40.06:775][977]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2016.01.30-10.40.06:995][977]LogRenderer: Reallocating scene render targets to support 1616x876 (Frame:49429).
+[2016.01.30-10.40.07:119][981]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 404/400 MB (ok in editor, bad on fixed memory platform)
+[2016.01.30-10.41.11:986][725]LogUObjectGlobals:Warning: Failed to find object 'Object None.Damage Threshold'
+[2016.01.30-10.41.11:987][725]LogUObjectGlobals:Warning: Failed to find object 'Object None.Damage Threshold'
+[2016.01.30-10.41.15:061][  0]LogUObjectGlobals:Warning: Failed to find object 'Object None.Enable Impact Damage'
+[2016.01.30-10.41.15:061][  0]LogUObjectGlobals:Warning: Failed to find object 'Object None.Enable Impact Damage'
+[2016.01.30-10.41.19:810][420]LogUObjectGlobals:Warning: Failed to find object 'Object None.Impact Damage'
+[2016.01.30-10.41.19:811][420]LogUObjectGlobals:Warning: Failed to find object 'Object None.Impact Damage'
+[2016.01.30-10.41.21:883][604]LogUObjectGlobals:Warning: Failed to find object 'Object None.Default Impact Damage Depth'
+[2016.01.30-10.41.21:884][604]LogUObjectGlobals:Warning: Failed to find object 'Object None.Default Impact Damage Depth'
+[2016.01.30-10.41.25:360][913]LogUObjectGlobals:Warning: Failed to find object 'Object None.DestructibleMesh'
+[2016.01.30-10.41.25:361][913]LogUObjectGlobals:Warning: Failed to find object 'Object None.DestructibleMesh'
+[2016.01.30-10.41.29:120][228]LogUObjectGlobals:Warning: Failed to find object 'Object None.Damage Cap'
+[2016.01.30-10.41.29:120][228]LogUObjectGlobals:Warning: Failed to find object 'Object None.Damage Cap'
+[2016.01.30-10.41.31:923][476]LogUObjectGlobals:Warning: Failed to find object 'Object None.Impact Velocity Threshold'
+[2016.01.30-10.41.31:924][476]LogUObjectGlobals:Warning: Failed to find object 'Object None.Impact Velocity Threshold'
+[2016.01.30-10.41.36:396][867]LogUObjectGlobals:Warning: Failed to find object 'Object None.Support Depth'
+[2016.01.30-10.41.36:398][867]LogUObjectGlobals:Warning: Failed to find object 'Object None.Support Depth'
+[2016.01.30-10.41.39:179][107]LogUObjectGlobals:Warning: Failed to find object 'Object None.Support Depth'
+[2016.01.30-10.41.39:180][107]LogUObjectGlobals:Warning: Failed to find object 'Object None.Support Depth'
+[2016.01.30-10.42.06:299][455]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Aztec3.Aztec3:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3' with GeneratedClass '/Game/Maps/Aztec3.Aztec3_C' with ClassGeneratedBy '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3'
+[2016.01.30-10.42.06:299][455]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.30-10.42.06:299][455]PIE: New page: PIE session: Aztec3 (Jan 30, 2016, 10:42:06 AM)
+[2016.01.30-10.42.06:299][455]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Aztec3
+[2016.01.30-10.42.06:430][455]LogPlayLevel: PIE: StaticDuplicateObject took: (0.130601s)
+[2016.01.30-10.42.06:431][455]LogAIModule: Creating AISystem for world Aztec3
+[2016.01.30-10.42.06:431][455]LogPlayLevel: PIE: World Init took: (0.001024s)
+[2016.01.30-10.42.06:431][455]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Aztec3.Aztec3 to /Game/Maps/UEDPIE_0_Aztec3.Aztec3 (0.131864s)
+[2016.01.30-10.42.06:450][455]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F300396C00
+[2016.01.30-10.42.06:475][455]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F34789B7E0
+[2016.01.30-10.42.06:475][455]LogInit: XAudio2 using 'Headset (4- SB Tactic3D Rage Wireless)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.30-10.42.06:485][455]LogInit: FAudioDevice initialized.
+[2016.01.30-10.42.06:519][455]LogWorld: Game class is 'MyGame_C'
+[2016.01.30-10.42.06:548][455]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Aztec3.Aztec3 up for play (max tick rate 0) at 2016.01.30-10.42.06
+[2016.01.30-10.42.06:548][455]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Aztec3.Aztec3:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.30-10.42.06:548][455]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Aztec3.Aztec3:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.30-10.42.06:553][455]LogWorld: Bringing up level for play took: 0.033021
+[2016.01.30-10.42.06:556][455]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Aztec3 0.629
+[2016.01.30-10.42.06:556][455]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Aztec3.Aztec3:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3' with GeneratedClass '/Game/Maps/Aztec3.Aztec3_C' with ClassGeneratedBy '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3'
+[2016.01.30-10.42.12:128][114]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Aztec3.Aztec3:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3' with GeneratedClass '/Game/Maps/Aztec3.Aztec3_C' with ClassGeneratedBy '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3'
+[2016.01.30-10.42.12:162][114]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Aztec3.Aztec3:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3' with GeneratedClass '/Game/Maps/Aztec3.Aztec3_C' with ClassGeneratedBy '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3'
+[2016.01.30-10.42.12:186][114]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F3000D1760
+[2016.01.30-10.42.39:077][334]LogDestructible:Warning: MainMesh Tris: 528
+[2016.01.30-10.42.39:097][334]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1479) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2016.01.30-10.42.39:097][334]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2016.01.30-10.42.40:616][334]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1479) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2016.01.30-10.42.40:616][334]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2016.01.30-10.42.41:364][334]LogApexDestructibleAssetImport:Warning: Using default materials for material slot
+[2016.01.30-10.42.41:365][334]LogApexDestructibleAssetImport:Warning: Bones digested - 27  Depth of hierarchy - 2
+[2016.01.30-10.42.41:408][334]LogSkeletalMesh: Chunk 0: 1698 rigid vertices, 0 soft vertices, 22 active bones
+[2016.01.30-10.42.41:408][334]LogSkeletalMesh: Chunk 1: 1802 rigid vertices, 0 soft vertices, 25 active bones
+[2016.01.30-10.42.41:412][334]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 2072 triangles
+[2016.01.30-10.42.41:412][334]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 1250 triangles
+[2016.01.30-10.42.49:546][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/SM_Projectile_DM" FILE="C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Content/Character/SM_Projectile_DM.uasset" SILENT=true
+[2016.01.30-10.42.49:595][143]LogSavePackage: Save=42.013721ms
+[2016.01.30-10.42.49:595][143]LogSavePackage: Moving 'C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Saved/SM_Projectile_DM3CDD6CEA4389A936D57C218EEABB0711.tmp' to 'C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Content/Character/SM_Projectile_DM.uasset'
+[2016.01.30-10.42.49:598][143]LogSavePackage: Total save time: 50.836466ms
+[2016.01.30-10.42.49:598][143]LogSavePackage:Display: Finished SavePackage C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Content/Character/SM_Projectile_DM.uasset
+[2016.01.30-10.42.52:837][472]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Aztec3.Aztec3:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3' with GeneratedClass '/Game/Maps/Aztec3.Aztec3_C' with ClassGeneratedBy '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3'
+[2016.01.30-10.42.52:837][472]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.30-10.42.52:838][472]PIE: New page: PIE session: Aztec3 (Jan 30, 2016, 10:42:52 AM)
+[2016.01.30-10.42.52:838][472]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Aztec3
+[2016.01.30-10.42.52:975][472]LogPlayLevel: PIE: StaticDuplicateObject took: (0.137216s)
+[2016.01.30-10.42.52:976][472]LogAIModule: Creating AISystem for world Aztec3
+[2016.01.30-10.42.52:976][472]LogPlayLevel: PIE: World Init took: (0.001041s)
+[2016.01.30-10.42.52:976][472]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Aztec3.Aztec3 to /Game/Maps/UEDPIE_0_Aztec3.Aztec3 (0.138524s)
+[2016.01.30-10.42.53:020][472]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F32F737B00
+[2016.01.30-10.42.53:020][472]LogInit: XAudio2 using 'Headset (4- SB Tactic3D Rage Wireless)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.30-10.42.53:029][472]LogInit: FAudioDevice initialized.
+[2016.01.30-10.42.53:066][472]LogWorld: Game class is 'MyGame_C'
+[2016.01.30-10.42.53:088][472]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Aztec3.Aztec3 up for play (max tick rate 0) at 2016.01.30-10.42.53
+[2016.01.30-10.42.53:088][472]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Aztec3.Aztec3:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.30-10.42.53:088][472]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Aztec3.Aztec3:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.30-10.42.53:093][472]LogWorld: Bringing up level for play took: 0.025600
+[2016.01.30-10.42.53:096][472]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Aztec3 1.169
+[2016.01.30-10.42.53:096][472]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Aztec3.Aztec3:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3' with GeneratedClass '/Game/Maps/Aztec3.Aztec3_C' with ClassGeneratedBy '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3'
+[2016.01.30-10.43.11:003][548]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Aztec3.Aztec3:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3' with GeneratedClass '/Game/Maps/Aztec3.Aztec3_C' with ClassGeneratedBy '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3'
+[2016.01.30-10.43.11:037][548]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Aztec3.Aztec3:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3' with GeneratedClass '/Game/Maps/Aztec3.Aztec3_C' with ClassGeneratedBy '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3'
+[2016.01.30-10.43.11:060][548]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F32F734180
+[2016.01.30-10.44.03:325][438]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Aztec3.Aztec3:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3' with GeneratedClass '/Game/Maps/Aztec3.Aztec3_C' with ClassGeneratedBy '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3'
+[2016.01.30-10.44.03:325][438]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.30-10.44.03:325][438]PIE: New page: PIE session: Aztec3 (Jan 30, 2016, 10:44:03 AM)
+[2016.01.30-10.44.03:325][438]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Aztec3
+[2016.01.30-10.44.03:456][438]LogPlayLevel: PIE: StaticDuplicateObject took: (0.130779s)
+[2016.01.30-10.44.03:457][438]LogAIModule: Creating AISystem for world Aztec3
+[2016.01.30-10.44.03:457][438]LogPlayLevel: PIE: World Init took: (0.001092s)
+[2016.01.30-10.44.03:457][438]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Aztec3.Aztec3 to /Game/Maps/UEDPIE_0_Aztec3.Aztec3 (0.132174s)
+[2016.01.30-10.44.03:499][438]LogInit: XAudio2 using 'Headset (4- SB Tactic3D Rage Wireless)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.30-10.44.03:509][438]LogInit: FAudioDevice initialized.
+[2016.01.30-10.44.03:547][438]LogWorld: Game class is 'MyGame_C'
+[2016.01.30-10.44.03:578][438]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Aztec3.Aztec3 up for play (max tick rate 0) at 2016.01.30-10.44.03
+[2016.01.30-10.44.03:578][438]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Aztec3.Aztec3:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.30-10.44.03:578][438]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Aztec3.Aztec3:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.30-10.44.03:584][438]LogWorld: Bringing up level for play took: 0.035497
+[2016.01.30-10.44.03:587][438]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Aztec3 -0.341
+[2016.01.30-10.44.03:587][438]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Aztec3.Aztec3:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3' with GeneratedClass '/Game/Maps/Aztec3.Aztec3_C' with ClassGeneratedBy '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3'
+[2016.01.30-10.44.17:659][113]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Aztec3.Aztec3:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3' with GeneratedClass '/Game/Maps/Aztec3.Aztec3_C' with ClassGeneratedBy '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3'
+[2016.01.30-10.44.17:694][113]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Aztec3.Aztec3:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3' with GeneratedClass '/Game/Maps/Aztec3.Aztec3_C' with ClassGeneratedBy '/Game/Maps/Aztec3.Aztec3:PersistentLevel.Aztec3'
+[2016.01.30-10.44.17:715][113]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F306503380
+[2016.01.30-10.45.33:433][324]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2016.01.30-10.45.34:234][324]LogSavePackage: Save=882.229492ms
+[2016.01.30-10.45.34:234][324]LogSavePackage: Moving 'C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Saved/Aztec3_Auto10361C7BF49A489701C0FDBBEA5FC0E09.tmp' to 'C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Saved/Autosaves/Game/Maps/Aztec3_Auto1.umap'
+[2016.01.30-10.45.34:235][324]LogSavePackage: Total save time: 906.653073ms
+[2016.01.30-10.45.34:235][324]LogSavePackage:Display: Finished SavePackage C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Saved/Autosaves/Game/Maps/Aztec3_Auto1.umap
+[2016.01.30-10.45.34:238][324]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Aztec3' took 0.933
+[2016.01.30-10.45.34:238][324]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.933
+[2016.01.30-10.45.34:243][324]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/InfinityBladeAdversaries/Enemy/Enemy_Bear/Materials/M_Bear_Master] ([1] browsable assets)...
+[2016.01.30-10.45.34:260][324]OBJ SavePackage:     Rendered thumbnail for [Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Bear/Materials/M_Bear_Master.M_Bear_Master]
+[2016.01.30-10.45.34:260][324]OBJ SavePackage: Finished generating thumbnails for package [/Game/InfinityBladeAdversaries/Enemy/Enemy_Bear/Materials/M_Bear_Master]
+[2016.01.30-10.45.34:286][324]LogSavePackage: Save=19.595722ms
+[2016.01.30-10.45.34:286][324]LogSavePackage: Moving 'C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Saved/M_Bear_Master_Auto1DFC5A4A8477ABF686E2D5F8404A816B0.tmp' to 'C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Saved/Autosaves/Game/InfinityBladeAdversaries/Enemy/Enemy_Bear/Materials/M_Bear_Master_Auto1.uasset'
+[2016.01.30-10.45.34:288][324]LogSavePackage: Total save time: 26.475631ms
+[2016.01.30-10.45.34:288][324]LogSavePackage:Display: Finished SavePackage C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Saved/Autosaves/Game/InfinityBladeAdversaries/Enemy/Enemy_Bear/Materials/M_Bear_Master_Auto1.uasset
+[2016.01.30-10.45.34:288][324]LogFileHelpers: Auto-saving content packages took 0.050
+[2016.01.30-10.46.05:018][149]LogTexture:Display: Building textures: T_Env_Fire_DeadTree_N (BC5)
+[2016.01.30-10.46.05:796][149]LogStaticMesh: Building static mesh SM_Env_Fire_DeadTree...
+[2016.01.30-10.46.05:833][149]LogStaticMesh: Built static mesh [0.037029.2s] /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_OddsnEnds/StaticMesh/SM_Env_Fire_DeadTree.SM_Env_Fire_DeadTree
+[2016.01.30-10.46.06:018][149]LogTexture:Display: Building textures: T_Env_Fire_DeadTree_D (AutoDXT)
+[2016.01.30-10.46.11:285][149]LogMaterial: Missing cached shader map for material M_Fire_DeadTree, compiling. 
+[2016.01.30-10.46.11:336][149]LogActorFactory: Actor Factory created SM_Env_Fire_DeadTree
+[2016.01.30-10.46.11:367][149]LogActorFactory: Actor Factory created SM_Env_Fire_DeadTree
+[2016.01.30-10.46.16:590][531]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Fire_DeadTree)
+[2016.01.30-10.50.00:516][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Aztec3" FILE="C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Content/Maps/Aztec3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.30-10.50.01:489][536]LogSavePackage: Save=951.441101ms
+[2016.01.30-10.50.01:489][536]LogSavePackage: Moving 'C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Saved/Aztec3DA899CEE4208EFA90226F1833C25BCA7.tmp' to 'C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Content/Maps/Aztec3.umap'
+[2016.01.30-10.50.01:503][536]LogSavePackage: Total save time: 967.015166ms
+[2016.01.30-10.50.01:503][536]LogSavePackage:Display: Finished SavePackage C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Content/Maps/Aztec3.umap
+[2016.01.30-10.52.09:757][123]Cmd: QUIT_EDITOR
+[2016.01.30-10.52.10:396][123]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.30-10.52.10:485][123]LogExit: Preparing to exit.
+[2016.01.30-10.52.10:904][123]LogExit: Editor shut down
+[2016.01.30-10.52.10:905][123]LogExit: Transaction tracking system shut down
+[2016.01.30-10.52.10:907][123]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F363F418A0
+[2016.01.30-10.52.10:912][123]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F3657C7C40
+[2016.01.30-10.52.10:912][123]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F360E6BA60
+[2016.01.30-10.52.10:913][123]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F363312E80
+[2016.01.30-10.52.10:913][123]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F378CDD300
+[2016.01.30-10.52.10:913][123]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F378CDEA20
+[2016.01.30-10.52.10:913][123]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F378CDE020
+[2016.01.30-10.52.10:913][123]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F344D3B100
+[2016.01.30-10.52.11:127][123]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F300355580
+[2016.01.30-10.52.11:127][123]LogExit: Object subsystem successfully closed.
+[2016.01.30-10.52.11:148][123]LogD3D11RHI: Shutdown
+[2016.01.30-10.52.11:148][123]LogD3D11RHI: CleanupD3DDevice
+[2016.01.30-10.52.11:261][123]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.01.30-10.52.11:277][123]LogModuleManager: Shutting down and abandoning module DestructibleMeshEditor (200)
+[2016.01.30-10.52.11:277][123]LogModuleManager: Shutting down and abandoning module CookingStats (199)
+[2016.01.30-10.52.11:277][123]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.01.30-10.52.11:277][123]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.01.30-10.52.11:277][123]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.01.30-10.52.11:277][123]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.01.30-10.52.11:277][123]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.01.30-10.52.11:278][123]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.01.30-10.52.11:278][123]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.01.30-10.52.11:278][123]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.01.30-10.52.11:278][123]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.01.30-10.52.11:278][123]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.01.30-10.52.11:279][123]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.01.30-10.52.11:279][123]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.01.30-10.52.11:279][123]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.01.30-10.52.11:279][123]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.01.30-10.52.11:279][123]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.01.30-10.52.11:279][123]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.01.30-10.52.11:279][123]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.01.30-10.52.11:279][123]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.01.30-10.52.11:279][123]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.01.30-10.52.11:279][123]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.01.30-10.52.11:279][123]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.01.30-10.52.11:279][123]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.01.30-10.52.11:279][123]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.01.30-10.52.11:279][123]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.01.30-10.52.11:279][123]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.01.30-10.52.11:279][123]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.01.30-10.52.12:179][123]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.01.30-10.52.12:179][123]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.01.30-10.52.12:179][123]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.01.30-10.52.12:179][123]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.01.30-10.52.12:179][123]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.01.30-10.52.12:179][123]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.01.30-10.52.12:179][123]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.01.30-10.52.12:179][123]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.01.30-10.52.12:179][123]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.01.30-10.52.12:179][123]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.01.30-10.52.12:179][123]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.01.30-10.52.12:179][123]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.01.30-10.52.12:179][123]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.01.30-10.52.12:179][123]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.01.30-10.52.12:179][123]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.01.30-10.52.12:179][123]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.01.30-10.52.12:179][123]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.01.30-10.52.12:179][123]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.01.30-10.52.12:179][123]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.01.30-10.52.12:179][123]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.01.30-10.52.12:180][123]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.01.30-10.52.12:180][123]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.01.30-10.52.12:180][123]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.01.30-10.52.12:180][123]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.01.30-10.52.12:180][123]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.01.30-10.52.12:180][123]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.01.30-10.52.12:180][123]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.01.30-10.52.12:180][123]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.01.30-10.52.12:180][123]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.01.30-10.52.12:180][123]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.01.30-10.52.12:180][123]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.01.30-10.52.12:180][123]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.01.30-10.52.12:180][123]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.01.30-10.52.12:180][123]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.01.30-10.52.12:181][123]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.01.30-10.52.12:181][123]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.01.30-10.52.12:181][123]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.01.30-10.52.12:181][123]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.01.30-10.52.12:181][123]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.01.30-10.52.12:181][123]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.01.30-10.52.12:181][123]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.01.30-10.52.12:181][123]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.01.30-10.52.12:181][123]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.01.30-10.52.12:181][123]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.01.30-10.52.12:181][123]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.01.30-10.52.12:181][123]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.01.30-10.52.12:181][123]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.01.30-10.52.12:181][123]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.01.30-10.52.12:181][123]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.01.30-10.52.12:181][123]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.01.30-10.52.12:298][123]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.01.30-10.52.12:298][123]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.01.30-10.52.12:298][123]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.01.30-10.52.12:298][123]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.01.30-10.52.12:298][123]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.01.30-10.52.12:298][123]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.01.30-10.52.12:298][123]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.01.30-10.52.12:298][123]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.01.30-10.52.12:322][123]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.01.30-10.52.12:322][123]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.01.30-10.52.12:322][123]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.01.30-10.52.12:322][123]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.01.30-10.52.12:322][123]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.01.30-10.52.12:322][123]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.01.30-10.52.12:322][123]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.01.30-10.52.12:322][123]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.01.30-10.52.12:322][123]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.01.30-10.52.12:322][123]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.01.30-10.52.12:322][123]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.01.30-10.52.12:322][123]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.01.30-10.52.12:322][123]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.01.30-10.52.12:322][123]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.01.30-10.52.12:322][123]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.01.30-10.52.12:323][123]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.01.30-10.52.12:323][123]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.01.30-10.52.12:323][123]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.01.30-10.52.12:323][123]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.01.30-10.52.12:323][123]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.01.30-10.52.12:323][123]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.01.30-10.52.12:323][123]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.01.30-10.52.12:323][123]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.01.30-10.52.12:323][123]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.01.30-10.52.12:325][123]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.01.30-10.52.12:326][123]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.01.30-10.52.12:459][123]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.01.30-10.52.12:460][123]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.01.30-10.52.12:460][123]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.01.30-10.52.12:561][123]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.01.30-10.52.12:561][123]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.01.30-10.52.12:561][123]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.01.30-10.52.12:564][123]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.01.30-10.52.12:565][123]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.01.30-10.52.12:565][123]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.01.30-10.52.12:565][123]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.01.30-10.52.12:565][123]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.01.30-10.52.12:565][123]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.01.30-10.52.12:565][123]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.01.30-10.52.12:565][123]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.01.30-10.52.12:565][123]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.01.30-10.52.12:565][123]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.01.30-10.52.12:565][123]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.01.30-10.52.12:565][123]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.01.30-10.52.12:565][123]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.01.30-10.52.12:565][123]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.01.30-10.52.12:565][123]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.01.30-10.52.12:565][123]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.01.30-10.52.12:569][123]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.01.30-10.52.12:569][123]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.01.30-10.52.12:569][123]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.01.30-10.52.12:569][123]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.01.30-10.52.12:569][123]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.01.30-10.52.12:569][123]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.01.30-10.52.12:569][123]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.01.30-10.52.12:569][123]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.01.30-10.52.12:569][123]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.01.30-10.52.12:569][123]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.01.30-10.52.12:626][123]LogDerivedDataCache: Shutdown
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.01.30-10.52.12:626][123]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.01.30-10.52.12:627][123]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.01.30-10.52.12:627][123]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.01.30-10.52.14:631][123]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.01.30-10.52.14:631][123]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.01.30-10.52.14:631][123]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.01.30-10.52.14:631][123]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.01.30-10.52.14:631][123]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.01.30-10.52.14:631][123]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.01.30-10.52.14:631][123]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.01.30-10.52.14:642][123]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.01.30-10.52.14:642][123]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.01.30-10.52.14:642][123]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.01.30-10.52.14:642][123]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.01.30-10.52.14:642][123]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.01.30-10.52.14:642][123]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.01.30-10.52.14:642][123]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.01.30-10.52.14:642][123]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.01.30-10.52.14:642][123]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.01.30-10.52.14:642][123]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.01.30-10.52.14:644][123]LogExit: Exiting.
+[2016.01.30-10.52.14:660][123]Log file closed, 01/30/16 10:52:14

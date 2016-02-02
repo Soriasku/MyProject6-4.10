@@ -1,0 +1,818 @@
+﻿[2016.01.31-18.17.31:022][  0]Log file open, 01/31/16 18:17:31
+[2016.01.31-18.17.31:022][  0]LogInit:Display: Running engine for game: MyProject6
+[2016.01.31-18.17.31:022][  0]LogPlatformFile: Not using cached read wrapper
+[2016.01.31-18.17.31:022][  0]LogInit:Display: RandInit(1045272390) SRandInit(1045272392).
+[2016.01.31-18.17.31:022][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.31-18.17.31:022][  0]LogStats: Stats thread started at 0.093175
+[2016.01.31-18.17.31:022][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.01.31-18.17.31:022][  0]LogInit: API Version: 2758231
+[2016.01.31-18.17.31:022][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.01.31-18.17.31:022][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.01.31-18.17.31:022][  0]LogInit: Build Configuration: Development
+[2016.01.31-18.17.31:022][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.01.31-18.17.31:022][  0]LogInit: Command line:  
+[2016.01.31-18.17.31:022][  0]LogInit: Base directory: E:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.01.31-18.17.31:022][  0]LogInit: Rocket: 1
+[2016.01.31-18.17.31:032][  0]LogInit: Using libcurl 7.41.0
+[2016.01.31-18.17.31:032][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.31-18.17.31:032][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.31-18.17.31:032][  0]LogInit:  - other features:
+[2016.01.31-18.17.31:032][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.31-18.17.31:032][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.31-18.17.31:032][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.31-18.17.31:032][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.31-18.17.31:032][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.31-18.17.31:032][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.31-18.17.31:032][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.31-18.17.31:032][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.31-18.17.31:032][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.31-18.17.31:032][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.31-18.17.31:040][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.31-18.17.31:048][  0]LogInit: Object subsystem initialized
+[2016.01.31-18.17.31:049][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set ('Scalability' has a lower priority than 'ProjectSetting')
+[2016.01.31-18.17.31:049][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.31-18.17.31:049][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.31-18.17.31:062][  0]LogInit: Computer: RAGNAROK
+[2016.01.31-18.17.31:062][  0]LogInit: User: Joe
+[2016.01.31-18.17.31:062][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.31-18.17.31:062][  0]LogInit: High frequency timer resolution =3.919520 MHz
+[2016.01.31-18.17.31:062][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.01.31-18.17.31:062][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.31-18.17.31:062][  0]LogMemory: Process Physical Memory: 56.20 MB used, 56.20 MB peak
+[2016.01.31-18.17.31:062][  0]LogMemory: Process Virtual Memory: 58.78 MB used, 58.78 MB peak
+[2016.01.31-18.17.31:062][  0]LogMemory: Physical Memory: 3942.39 MB used, 16282.32 MB total
+[2016.01.31-18.17.31:062][  0]LogMemory: Virtual Memory: 381.52 MB used, 134217728.00 MB total
+[2016.01.31-18.17.31:105][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.01.31-18.17.31:772][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 780 Ti  (Feature Level 11_0)
+[2016.01.31-18.17.31:772][  0]LogD3D11RHI: Adapter has 3013MB of dedicated video memory, 0MB of dedicated system memory, and 8141MB of shared system memory, 1 output[s]
+[2016.01.31-18.17.31:775][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.01.31-18.17.31:775][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8141MB of shared system memory, 0 output[s]
+[2016.01.31-18.17.31:775][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.31-18.17.31:783][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.31-18.17.31:783][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.31-18.17.31:802][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.31-18.17.31:818][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Intermediate/Shaders/WorkingDirectory/9660/).
+[2016.01.31-18.17.31:818][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Joe/AppData/Local/Temp/UnrealShaderWorkingDir/73BBB13A479748FC2774E28F10CF54A6/'.
+[2016.01.31-18.17.31:819][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.31-18.17.32:850][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.31-18.17.32:856][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.31-18.17.32:862][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.31-18.17.32:868][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.31-18.17.32:873][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.31-18.17.32:877][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.31-18.17.32:882][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.31-18.17.32:886][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.31-18.17.32:889][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.31-18.17.32:892][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.31-18.17.32:896][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.31-18.17.32:903][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.01.31-18.17.32:903][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.31-18.17.32:903][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.31-18.17.32:921][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.31-18.17.32:924][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.31-18.17.32:927][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.31-18.17.32:931][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.31-18.17.32:931][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.31-18.17.33:033][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.31-18.17.33:105][  0]LogDerivedDataCache: Loaded boot cache 0.07s 41MB C:/Users/Joe/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.01.31-18.17.33:105][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Joe/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.01.31-18.17.33:105][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.31-18.17.33:105][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.31-18.17.33:105][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.31-18.17.33:105][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.31-18.17.33:214][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.31-18.17.33:226][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Joe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.31-18.17.33:486][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.31-18.17.33:490][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.31-18.17.33:653][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.31-18.17.33:653][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.31-18.17.33:965][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.31-18.17.34:879][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.31-18.17.34:983][  0]LogAssetRegistry: FAssetRegistry took 0.0111 seconds to start up
+[2016.01.31-18.17.35:200][  0]SourceControl: Info Source control is disabled
+[2016.01.31-18.17.35:201][  0]SourceControl: Info Source control is disabled
+[2016.01.31-18.17.35:218][  0]SourceControl: Info Source control is disabled
+[2016.01.31-18.17.35:235][  0]SourceControl: Info Source control is disabled
+[2016.01.31-18.17.35:575][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.01.31-18.17.35:575][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.01.31-18.17.35:653][  0]LogEngine: Initializing Engine...
+[2016.01.31-18.17.35:657][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.01.31-18.17.35:669][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2016.01.31-18.17.35:813][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.31-18.17.35:836][  0]LogInit: XAudio2 using 'Headset (4- SB Tactic3D Rage Wireless)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.31-18.17.35:850][  0]LogInit: FAudioDevice initialized.
+[2016.01.31-18.17.35:892][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/Joe/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.01.31-18.17.35:903][  0]LogInit: Texture streaming: Enabled
+[2016.01.31-18.17.35:911][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.31-18.17.35:911][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.01.31-18.17.35:912][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 32b4a5f24472a1a37f9770b8873341fc|b8f1d4b6f9934d789072be7fdede4a71|feb1f61d-5633-4d4e-873d-f67e40539e45
+[2016.01.31-18.17.35:912][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.31-18.17.35:926][  0]LogInit: Transaction tracking system initialized
+[2016.01.31-18.17.35:972][  0]BlueprintLog: New page: Editor Load
+[2016.01.31-18.17.36:094][  0]LocalizationService: Info Localization service is disabled
+[2016.01.31-18.17.36:209][  0]LogConsoleResponse:Display: 
+[2016.01.31-18.17.36:333][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.31-18.17.36:419][  0]SourceControl: Info Source control is disabled
+[2016.01.31-18.17.36:420][  0]Cmd: MAP LOAD FILE="C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Content/Maps/Aztecv13.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.31-18.17.36:420][  0]LightingResults: New page: Lighting Build
+[2016.01.31-18.17.36:425][  0]MapCheck: New page: Map Check
+[2016.01.31-18.17.36:425][  0]LightingResults: New page: Lighting Build
+[2016.01.31-18.17.36:438][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Content/' took 0.11s
+[2016.01.31-18.17.36:440][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C065883B00
+[2016.01.31-18.17.37:444][  0]LogAIModule: Creating AISystem for world Aztecv13
+[2016.01.31-18.17.37:473][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.31-18.17.37:474][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.31-18.17.39:945][  0]MapCheck:Warning: Warning MaterialInstanceDynamic_26 MaterialInstanceDynamic /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.SkySphereBlueprint.TRASH_StaticMeshComponent_0.MaterialInstanceDynamic_26 : Externally referenced 
+[2016.01.31-18.17.39:946][  0]MapCheck:Warning: Warning MaterialInstanceDynamic_3 MaterialInstanceDynamic /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.SkySphereBlueprint.Sky Sphere mesh.MaterialInstanceDynamic_3 : Externally referenced 
+[2016.01.31-18.17.39:946][  0]MapCheck:Warning: Warning ModelComponent_76 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_76 : Externally referenced 
+[2016.01.31-18.17.39:946][  0]MapCheck:Warning: Warning Model_0 Model /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Model_0 : Externally referenced 
+[2016.01.31-18.17.39:946][  0]MapCheck:Warning: Warning Polys_300306 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush159.Model_31.Polys_300306 : Externally referenced 
+[2016.01.31-18.17.39:946][  0]MapCheck:Warning: Warning Polys_296395 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.CylinderBrush20.Model_30.Polys_296395 : Externally referenced 
+[2016.01.31-18.17.39:946][  0]MapCheck:Warning: Warning Polys_298348 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.CylinderBrush21.Model_30.Polys_298348 : Externally referenced 
+[2016.01.31-18.17.39:946][  0]MapCheck:Warning: Warning ModelComponent_0 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_0 : Externally referenced 
+[2016.01.31-18.17.39:946][  0]MapCheck:Warning: Warning ModelComponent_1 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_1 : Externally referenced 
+[2016.01.31-18.17.39:946][  0]MapCheck:Warning: Warning ModelComponent_10 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_10 : Externally referenced 
+[2016.01.31-18.17.39:946][  0]MapCheck:Warning: Warning ModelComponent_11 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_11 : Externally referenced 
+[2016.01.31-18.17.39:946][  0]MapCheck:Warning: Warning ModelComponent_12 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_12 : Externally referenced 
+[2016.01.31-18.17.39:946][  0]MapCheck:Warning: Warning ModelComponent_13 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_13 : Externally referenced 
+[2016.01.31-18.17.39:946][  0]MapCheck:Warning: Warning ModelComponent_14 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_14 : Externally referenced 
+[2016.01.31-18.17.39:946][  0]MapCheck:Warning: Warning ModelComponent_16 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_16 : Externally referenced 
+[2016.01.31-18.17.39:946][  0]MapCheck:Warning: Warning ModelComponent_17 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_17 : Externally referenced 
+[2016.01.31-18.17.39:946][  0]MapCheck:Warning: Warning ModelComponent_18 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_18 : Externally referenced 
+[2016.01.31-18.17.39:946][  0]MapCheck:Warning: Warning ModelComponent_19 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_19 : Externally referenced 
+[2016.01.31-18.17.39:946][  0]MapCheck:Warning: Warning ModelComponent_2 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_2 : Externally referenced 
+[2016.01.31-18.17.39:946][  0]MapCheck:Warning: Warning ModelComponent_20 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_20 : Externally referenced 
+[2016.01.31-18.17.39:946][  0]MapCheck:Warning: Warning ModelComponent_21 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_21 : Externally referenced 
+[2016.01.31-18.17.39:947][  0]MapCheck:Warning: Warning ModelComponent_22 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_22 : Externally referenced 
+[2016.01.31-18.17.39:947][  0]MapCheck:Warning: Warning ModelComponent_23 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_23 : Externally referenced 
+[2016.01.31-18.17.39:947][  0]MapCheck:Warning: Warning ModelComponent_24 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_24 : Externally referenced 
+[2016.01.31-18.17.39:947][  0]MapCheck:Warning: Warning ModelComponent_25 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_25 : Externally referenced 
+[2016.01.31-18.17.39:947][  0]MapCheck:Warning: Warning ModelComponent_27 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_27 : Externally referenced 
+[2016.01.31-18.17.39:947][  0]MapCheck:Warning: Warning ModelComponent_28 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_28 : Externally referenced 
+[2016.01.31-18.17.39:947][  0]MapCheck:Warning: Warning ModelComponent_29 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_29 : Externally referenced 
+[2016.01.31-18.17.39:947][  0]MapCheck:Warning: Warning ModelComponent_3 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_3 : Externally referenced 
+[2016.01.31-18.17.39:947][  0]MapCheck:Warning: Warning ModelComponent_30 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_30 : Externally referenced 
+[2016.01.31-18.17.39:947][  0]MapCheck:Warning: Warning ModelComponent_32 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_32 : Externally referenced 
+[2016.01.31-18.17.39:947][  0]MapCheck:Warning: Warning ModelComponent_33 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_33 : Externally referenced 
+[2016.01.31-18.17.39:947][  0]MapCheck:Warning: Warning ModelComponent_34 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_34 : Externally referenced 
+[2016.01.31-18.17.39:947][  0]MapCheck:Warning: Warning ModelComponent_35 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_35 : Externally referenced 
+[2016.01.31-18.17.39:947][  0]MapCheck:Warning: Warning ModelComponent_36 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_36 : Externally referenced 
+[2016.01.31-18.17.39:947][  0]MapCheck:Warning: Warning ModelComponent_37 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_37 : Externally referenced 
+[2016.01.31-18.17.39:947][  0]MapCheck:Warning: Warning ModelComponent_38 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_38 : Externally referenced 
+[2016.01.31-18.17.39:947][  0]MapCheck:Warning: Warning ModelComponent_39 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_39 : Externally referenced 
+[2016.01.31-18.17.39:947][  0]MapCheck:Warning: Warning ModelComponent_4 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_4 : Externally referenced 
+[2016.01.31-18.17.39:947][  0]MapCheck:Warning: Warning ModelComponent_40 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_40 : Externally referenced 
+[2016.01.31-18.17.39:947][  0]MapCheck:Warning: Warning ModelComponent_41 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_41 : Externally referenced 
+[2016.01.31-18.17.39:947][  0]MapCheck:Warning: Warning ModelComponent_42 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_42 : Externally referenced 
+[2016.01.31-18.17.39:948][  0]MapCheck:Warning: Warning ModelComponent_43 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_43 : Externally referenced 
+[2016.01.31-18.17.39:948][  0]MapCheck:Warning: Warning ModelComponent_44 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_44 : Externally referenced 
+[2016.01.31-18.17.39:948][  0]MapCheck:Warning: Warning ModelComponent_45 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_45 : Externally referenced 
+[2016.01.31-18.17.39:948][  0]MapCheck:Warning: Warning ModelComponent_46 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_46 : Externally referenced 
+[2016.01.31-18.17.39:948][  0]MapCheck:Warning: Warning ModelComponent_47 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_47 : Externally referenced 
+[2016.01.31-18.17.39:948][  0]MapCheck:Warning: Warning ModelComponent_48 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_48 : Externally referenced 
+[2016.01.31-18.17.39:948][  0]MapCheck:Warning: Warning ModelComponent_49 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_49 : Externally referenced 
+[2016.01.31-18.17.39:948][  0]MapCheck:Warning: Warning ModelComponent_5 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_5 : Externally referenced 
+[2016.01.31-18.17.39:948][  0]MapCheck:Warning: Warning ModelComponent_50 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_50 : Externally referenced 
+[2016.01.31-18.17.39:948][  0]MapCheck:Warning: Warning ModelComponent_51 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_51 : Externally referenced 
+[2016.01.31-18.17.39:948][  0]MapCheck:Warning: Warning ModelComponent_52 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_52 : Externally referenced 
+[2016.01.31-18.17.39:948][  0]MapCheck:Warning: Warning ModelComponent_53 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_53 : Externally referenced 
+[2016.01.31-18.17.39:948][  0]MapCheck:Warning: Warning ModelComponent_54 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_54 : Externally referenced 
+[2016.01.31-18.17.39:948][  0]MapCheck:Warning: Warning ModelComponent_55 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_55 : Externally referenced 
+[2016.01.31-18.17.39:948][  0]MapCheck:Warning: Warning ModelComponent_56 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_56 : Externally referenced 
+[2016.01.31-18.17.39:948][  0]MapCheck:Warning: Warning ModelComponent_57 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_57 : Externally referenced 
+[2016.01.31-18.17.39:948][  0]MapCheck:Warning: Warning ModelComponent_58 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_58 : Externally referenced 
+[2016.01.31-18.17.39:948][  0]MapCheck:Warning: Warning ModelComponent_59 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_59 : Externally referenced 
+[2016.01.31-18.17.39:948][  0]MapCheck:Warning: Warning ModelComponent_6 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_6 : Externally referenced 
+[2016.01.31-18.17.39:949][  0]MapCheck:Warning: Warning ModelComponent_60 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_60 : Externally referenced 
+[2016.01.31-18.17.39:949][  0]MapCheck:Warning: Warning ModelComponent_61 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_61 : Externally referenced 
+[2016.01.31-18.17.39:949][  0]MapCheck:Warning: Warning ModelComponent_62 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_62 : Externally referenced 
+[2016.01.31-18.17.39:949][  0]MapCheck:Warning: Warning ModelComponent_63 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_63 : Externally referenced 
+[2016.01.31-18.17.39:949][  0]MapCheck:Warning: Warning ModelComponent_64 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_64 : Externally referenced 
+[2016.01.31-18.17.39:949][  0]MapCheck:Warning: Warning ModelComponent_65 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_65 : Externally referenced 
+[2016.01.31-18.17.39:949][  0]MapCheck:Warning: Warning ModelComponent_66 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_66 : Externally referenced 
+[2016.01.31-18.17.39:949][  0]MapCheck:Warning: Warning ModelComponent_67 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_67 : Externally referenced 
+[2016.01.31-18.17.39:949][  0]MapCheck:Warning: Warning ModelComponent_68 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_68 : Externally referenced 
+[2016.01.31-18.17.39:949][  0]MapCheck:Warning: Warning ModelComponent_69 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_69 : Externally referenced 
+[2016.01.31-18.17.39:949][  0]MapCheck:Warning: Warning ModelComponent_7 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_7 : Externally referenced 
+[2016.01.31-18.17.39:949][  0]MapCheck:Warning: Warning ModelComponent_70 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_70 : Externally referenced 
+[2016.01.31-18.17.39:949][  0]MapCheck:Warning: Warning ModelComponent_71 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_71 : Externally referenced 
+[2016.01.31-18.17.39:949][  0]MapCheck:Warning: Warning ModelComponent_72 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_72 : Externally referenced 
+[2016.01.31-18.17.39:949][  0]MapCheck:Warning: Warning ModelComponent_73 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_73 : Externally referenced 
+[2016.01.31-18.17.39:949][  0]MapCheck:Warning: Warning ModelComponent_74 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_74 : Externally referenced 
+[2016.01.31-18.17.39:949][  0]MapCheck:Warning: Warning ModelComponent_75 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_75 : Externally referenced 
+[2016.01.31-18.17.39:949][  0]MapCheck:Warning: Warning ModelComponent_76 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_76 : Externally referenced 
+[2016.01.31-18.17.39:950][  0]MapCheck:Warning: Warning ModelComponent_77 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_77 : Externally referenced 
+[2016.01.31-18.17.39:950][  0]MapCheck:Warning: Warning ModelComponent_78 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_78 : Externally referenced 
+[2016.01.31-18.17.39:950][  0]MapCheck:Warning: Warning ModelComponent_79 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_79 : Externally referenced 
+[2016.01.31-18.17.39:950][  0]MapCheck:Warning: Warning ModelComponent_8 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_8 : Externally referenced 
+[2016.01.31-18.17.39:950][  0]MapCheck:Warning: Warning ModelComponent_80 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_80 : Externally referenced 
+[2016.01.31-18.17.39:950][  0]MapCheck:Warning: Warning ModelComponent_81 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_81 : Externally referenced 
+[2016.01.31-18.17.39:950][  0]MapCheck:Warning: Warning ModelComponent_82 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_82 : Externally referenced 
+[2016.01.31-18.17.39:950][  0]MapCheck:Warning: Warning ModelComponent_83 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_83 : Externally referenced 
+[2016.01.31-18.17.39:950][  0]MapCheck:Warning: Warning ModelComponent_84 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_84 : Externally referenced 
+[2016.01.31-18.17.39:950][  0]MapCheck:Warning: Warning ModelComponent_85 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_85 : Externally referenced 
+[2016.01.31-18.17.39:950][  0]MapCheck:Warning: Warning ModelComponent_86 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_86 : Externally referenced 
+[2016.01.31-18.17.39:950][  0]MapCheck:Warning: Warning ModelComponent_87 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_87 : Externally referenced 
+[2016.01.31-18.17.39:950][  0]MapCheck:Warning: Warning ModelComponent_88 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_88 : Externally referenced 
+[2016.01.31-18.17.39:950][  0]MapCheck:Warning: Warning ModelComponent_9 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_9 : Externally referenced 
+[2016.01.31-18.17.39:950][  0]MapCheck:Warning: Warning Model_0 Model /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Model_0 : Externally referenced 
+[2016.01.31-18.17.39:950][  0]MapCheck:Warning: Warning Polys_3835 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush.Model_14.Polys_3835 : Externally referenced 
+[2016.01.31-18.17.39:950][  0]MapCheck:Warning: Warning Polys_1824 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush10.Model_15.Polys_1824 : Externally referenced 
+[2016.01.31-18.17.39:950][  0]MapCheck:Warning: Warning Polys_166716 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush100.Model_15.Polys_166716 : Externally referenced 
+[2016.01.31-18.17.39:950][  0]MapCheck:Warning: Warning Polys_167762 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush101.Model_15.Polys_167762 : Externally referenced 
+[2016.01.31-18.17.39:951][  0]MapCheck:Warning: Warning Polys_170669 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush102.Model_15.Polys_170669 : Externally referenced 
+[2016.01.31-18.17.39:951][  0]MapCheck:Warning: Warning Polys_179640 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush103.Model_15.Polys_179640 : Externally referenced 
+[2016.01.31-18.17.39:951][  0]MapCheck:Warning: Warning Polys_1899 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush104.Model_14.Polys_1899 : Externally referenced 
+[2016.01.31-18.17.39:951][  0]MapCheck:Warning: Warning Polys_30072 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush105.Model_14.Polys_30072 : Externally referenced 
+[2016.01.31-18.17.39:951][  0]MapCheck:Warning: Warning Polys_54727 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush106.Model_14.Polys_54727 : Externally referenced 
+[2016.01.31-18.17.39:951][  0]MapCheck:Warning: Warning Polys_164292 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush107.Model_14.Polys_164292 : Externally referenced 
+[2016.01.31-18.17.39:951][  0]MapCheck:Warning: Warning Polys_173430 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush108.Model_14.Polys_173430 : Externally referenced 
+[2016.01.31-18.17.39:951][  0]MapCheck:Warning: Warning Polys_174701 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush109.Model_14.Polys_174701 : Externally referenced 
+[2016.01.31-18.17.39:951][  0]MapCheck:Warning: Warning Polys_1892 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush11.Model_15.Polys_1892 : Externally referenced 
+[2016.01.31-18.17.39:951][  0]MapCheck:Warning: Warning Polys_199570 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush111.Model_6.Polys_199570 : Externally referenced 
+[2016.01.31-18.17.39:951][  0]MapCheck:Warning: Warning Polys_201391 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush112.Model_11.Polys_201391 : Externally referenced 
+[2016.01.31-18.17.39:951][  0]MapCheck:Warning: Warning Polys_122226 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush113.Model_9.Polys_122226 : Externally referenced 
+[2016.01.31-18.17.39:951][  0]MapCheck:Warning: Warning Polys_144118 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush115.Model_12.Polys_144118 : Externally referenced 
+[2016.01.31-18.17.39:951][  0]MapCheck:Warning: Warning Polys_153524 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush116.Model_12.Polys_153524 : Externally referenced 
+[2016.01.31-18.17.39:951][  0]MapCheck:Warning: Warning Polys_158081 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush117.Model_12.Polys_158081 : Externally referenced 
+[2016.01.31-18.17.39:951][  0]MapCheck:Warning: Warning Polys_194973 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush118.Model_15.Polys_194973 : Externally referenced 
+[2016.01.31-18.17.39:951][  0]MapCheck:Warning: Warning Polys_199669 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush119.Model_16.Polys_199669 : Externally referenced 
+[2016.01.31-18.17.39:952][  0]MapCheck:Warning: Warning Polys_2513 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush12.Model_15.Polys_2513 : Externally referenced 
+[2016.01.31-18.17.39:952][  0]MapCheck:Warning: Warning Polys_228148 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush120.Model_15.Polys_228148 : Externally referenced 
+[2016.01.31-18.17.39:952][  0]MapCheck:Warning: Warning Polys_228151 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush121.Model_16.Polys_228151 : Externally referenced 
+[2016.01.31-18.17.39:952][  0]MapCheck:Warning: Warning Polys_7698 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush122.Model_6.Polys_7698 : Externally referenced 
+[2016.01.31-18.17.39:952][  0]MapCheck:Warning: Warning Polys_20319 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush123.Model_7.Polys_20319 : Externally referenced 
+[2016.01.31-18.17.39:952][  0]MapCheck:Warning: Warning Polys_27277 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush124.Model_7.Polys_27277 : Externally referenced 
+[2016.01.31-18.17.39:952][  0]MapCheck:Warning: Warning Polys_33856 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush125.Model_7.Polys_33856 : Externally referenced 
+[2016.01.31-18.17.39:952][  0]MapCheck:Warning: Warning Polys_40054 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush126.Model_7.Polys_40054 : Externally referenced 
+[2016.01.31-18.17.39:952][  0]MapCheck:Warning: Warning Polys_42961 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush127.Model_8.Polys_42961 : Externally referenced 
+[2016.01.31-18.17.39:952][  0]MapCheck:Warning: Warning Polys_47970 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush128.Model_7.Polys_47970 : Externally referenced 
+[2016.01.31-18.17.39:952][  0]MapCheck:Warning: Warning Polys_61381 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush129.Model_8.Polys_61381 : Externally referenced 
+[2016.01.31-18.17.39:952][  0]MapCheck:Warning: Warning Polys_2811 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush13.Model_15.Polys_2811 : Externally referenced 
+[2016.01.31-18.17.39:952][  0]MapCheck:Warning: Warning Polys_69804 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush130.Model_7.Polys_69804 : Externally referenced 
+[2016.01.31-18.17.39:952][  0]MapCheck:Warning: Warning Polys_72768 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush131.Model_8.Polys_72768 : Externally referenced 
+[2016.01.31-18.17.39:952][  0]MapCheck:Warning: Warning Polys_75746 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush132.Model_7.Polys_75746 : Externally referenced 
+[2016.01.31-18.17.39:952][  0]MapCheck:Warning: Warning Polys_81727 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush133.Model_8.Polys_81727 : Externally referenced 
+[2016.01.31-18.17.39:953][  0]MapCheck:Warning: Warning Polys_84304 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush134.Model_7.Polys_84304 : Externally referenced 
+[2016.01.31-18.17.39:953][  0]MapCheck:Warning: Warning Polys_88186 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush135.Model_8.Polys_88186 : Externally referenced 
+[2016.01.31-18.17.39:953][  0]MapCheck:Warning: Warning Polys_92086 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush136.Model_7.Polys_92086 : Externally referenced 
+[2016.01.31-18.17.39:953][  0]MapCheck:Warning: Warning Polys_96004 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush137.Model_8.Polys_96004 : Externally referenced 
+[2016.01.31-18.17.39:953][  0]MapCheck:Warning: Warning Polys_98629 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush138.Model_7.Polys_98629 : Externally referenced 
+[2016.01.31-18.17.39:953][  0]MapCheck:Warning: Warning Polys_99949 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush139.Model_7.Polys_99949 : Externally referenced 
+[2016.01.31-18.17.39:953][  0]MapCheck:Warning: Warning Polys_2891 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush14.Model_15.Polys_2891 : Externally referenced 
+[2016.01.31-18.17.39:953][  0]MapCheck:Warning: Warning Polys_103480 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush140.Model_8.Polys_103480 : Externally referenced 
+[2016.01.31-18.17.39:953][  0]MapCheck:Warning: Warning Polys_107913 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush141.Model_8.Polys_107913 : Externally referenced 
+[2016.01.31-18.17.39:953][  0]MapCheck:Warning: Warning Polys_110586 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush142.Model_7.Polys_110586 : Externally referenced 
+[2016.01.31-18.17.39:953][  0]MapCheck:Warning: Warning Polys_113718 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush143.Model_8.Polys_113718 : Externally referenced 
+[2016.01.31-18.17.39:953][  0]MapCheck:Warning: Warning Polys_121354 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush144.Model_7.Polys_121354 : Externally referenced 
+[2016.01.31-18.17.39:953][  0]MapCheck:Warning: Warning Polys_124514 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush145.Model_8.Polys_124514 : Externally referenced 
+[2016.01.31-18.17.39:953][  0]MapCheck:Warning: Warning Polys_126782 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush146.Model_7.Polys_126782 : Externally referenced 
+[2016.01.31-18.17.39:953][  0]MapCheck:Warning: Warning Polys_132245 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush147.Model_8.Polys_132245 : Externally referenced 
+[2016.01.31-18.17.39:954][  0]MapCheck:Warning: Warning Polys_134990 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush148.Model_8.Polys_134990 : Externally referenced 
+[2016.01.31-18.17.39:954][  0]MapCheck:Warning: Warning Polys_3549 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush15.Model_15.Polys_3549 : Externally referenced 
+[2016.01.31-18.17.39:954][  0]MapCheck:Warning: Warning Polys_148358 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush150.Model_7.Polys_148358 : Externally referenced 
+[2016.01.31-18.17.39:954][  0]MapCheck:Warning: Warning Polys_151139 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush151.Model_8.Polys_151139 : Externally referenced 
+[2016.01.31-18.17.39:954][  0]MapCheck:Warning: Warning Polys_167914 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush152.Model_7.Polys_167914 : Externally referenced 
+[2016.01.31-18.17.39:954][  0]MapCheck:Warning: Warning Polys_177783 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush154.Model_8.Polys_177783 : Externally referenced 
+[2016.01.31-18.17.39:954][  0]MapCheck:Warning: Warning Polys_188698 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush155.Model_14.Polys_188698 : Externally referenced 
+[2016.01.31-18.17.39:954][  0]MapCheck:Warning: Warning Polys_213085 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush156.Model_14.Polys_213085 : Externally referenced 
+[2016.01.31-18.17.39:954][  0]MapCheck:Warning: Warning Polys_242412 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush157.Model_6.Polys_242412 : Externally referenced 
+[2016.01.31-18.17.39:954][  0]MapCheck:Warning: Warning Polys_277191 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush158.Model_8.Polys_277191 : Externally referenced 
+[2016.01.31-18.17.39:954][  0]MapCheck:Warning: Warning Polys_3809 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush16.Model_15.Polys_3809 : Externally referenced 
+[2016.01.31-18.17.39:954][  0]MapCheck:Warning: Warning Polys_4351 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush17.Model_15.Polys_4351 : Externally referenced 
+[2016.01.31-18.17.39:954][  0]MapCheck:Warning: Warning Polys_4494 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush18.Model_15.Polys_4494 : Externally referenced 
+[2016.01.31-18.17.39:954][  0]MapCheck:Warning: Warning Polys_5084 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush19.Model_15.Polys_5084 : Externally referenced 
+[2016.01.31-18.17.39:954][  0]MapCheck:Warning: Warning Polys_2168 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush2.Model_11.Polys_2168 : Externally referenced 
+[2016.01.31-18.17.39:954][  0]MapCheck:Warning: Warning Polys_5341 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush20.Model_15.Polys_5341 : Externally referenced 
+[2016.01.31-18.17.39:955][  0]MapCheck:Warning: Warning Polys_6085 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush21.Model_15.Polys_6085 : Externally referenced 
+[2016.01.31-18.17.39:955][  0]MapCheck:Warning: Warning Polys_6362 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush22.Model_15.Polys_6362 : Externally referenced 
+[2016.01.31-18.17.39:955][  0]MapCheck:Warning: Warning Polys_6763 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush23.Model_15.Polys_6763 : Externally referenced 
+[2016.01.31-18.17.39:955][  0]MapCheck:Warning: Warning Polys_7178 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush24.Model_15.Polys_7178 : Externally referenced 
+[2016.01.31-18.17.39:955][  0]MapCheck:Warning: Warning Polys_8461 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush25.Model_15.Polys_8461 : Externally referenced 
+[2016.01.31-18.17.39:955][  0]MapCheck:Warning: Warning Polys_8715 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush26.Model_15.Polys_8715 : Externally referenced 
+[2016.01.31-18.17.39:955][  0]MapCheck:Warning: Warning Polys_9367 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush27.Model_15.Polys_9367 : Externally referenced 
+[2016.01.31-18.17.39:955][  0]MapCheck:Warning: Warning Polys_10374 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush28.Model_15.Polys_10374 : Externally referenced 
+[2016.01.31-18.17.39:955][  0]MapCheck:Warning: Warning Polys_10721 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush29.Model_15.Polys_10721 : Externally referenced 
+[2016.01.31-18.17.39:955][  0]MapCheck:Warning: Warning Polys_4403 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush3.Model_15.Polys_4403 : Externally referenced 
+[2016.01.31-18.17.39:955][  0]MapCheck:Warning: Warning Polys_11362 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush30.Model_15.Polys_11362 : Externally referenced 
+[2016.01.31-18.17.39:955][  0]MapCheck:Warning: Warning Polys_12021 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush31.Model_15.Polys_12021 : Externally referenced 
+[2016.01.31-18.17.39:955][  0]MapCheck:Warning: Warning Polys_12398 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush32.Model_15.Polys_12398 : Externally referenced 
+[2016.01.31-18.17.39:955][  0]MapCheck:Warning: Warning Polys_12862 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush33.Model_15.Polys_12862 : Externally referenced 
+[2016.01.31-18.17.39:955][  0]MapCheck:Warning: Warning Polys_13812 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush34.Model_15.Polys_13812 : Externally referenced 
+[2016.01.31-18.17.39:955][  0]MapCheck:Warning: Warning Polys_14057 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush35.Model_15.Polys_14057 : Externally referenced 
+[2016.01.31-18.17.39:956][  0]MapCheck:Warning: Warning Polys_14806 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush36.Model_15.Polys_14806 : Externally referenced 
+[2016.01.31-18.17.39:956][  0]MapCheck:Warning: Warning Polys_15148 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush37.Model_15.Polys_15148 : Externally referenced 
+[2016.01.31-18.17.39:956][  0]MapCheck:Warning: Warning Polys_15759 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush38.Model_15.Polys_15759 : Externally referenced 
+[2016.01.31-18.17.39:956][  0]MapCheck:Warning: Warning Polys_16562 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush39.Model_15.Polys_16562 : Externally referenced 
+[2016.01.31-18.17.39:956][  0]MapCheck:Warning: Warning Polys_7 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush4.Model_15.Polys_7 : Externally referenced 
+[2016.01.31-18.17.39:956][  0]MapCheck:Warning: Warning Polys_17656 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush40.Model_15.Polys_17656 : Externally referenced 
+[2016.01.31-18.17.39:956][  0]MapCheck:Warning: Warning Polys_18216 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush41.Model_15.Polys_18216 : Externally referenced 
+[2016.01.31-18.17.39:956][  0]MapCheck:Warning: Warning Polys_18883 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush42.Model_15.Polys_18883 : Externally referenced 
+[2016.01.31-18.17.39:956][  0]MapCheck:Warning: Warning Polys_19661 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush43.Model_15.Polys_19661 : Externally referenced 
+[2016.01.31-18.17.39:956][  0]MapCheck:Warning: Warning Polys_20950 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush44.Model_15.Polys_20950 : Externally referenced 
+[2016.01.31-18.17.39:956][  0]MapCheck:Warning: Warning Polys_22164 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush45.Model_15.Polys_22164 : Externally referenced 
+[2016.01.31-18.17.39:956][  0]MapCheck:Warning: Warning Polys_23093 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush46.Model_15.Polys_23093 : Externally referenced 
+[2016.01.31-18.17.39:956][  0]MapCheck:Warning: Warning Polys_28240 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush47.Model_15.Polys_28240 : Externally referenced 
+[2016.01.31-18.17.39:956][  0]MapCheck:Warning: Warning Polys_29205 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush48.Model_15.Polys_29205 : Externally referenced 
+[2016.01.31-18.17.39:956][  0]MapCheck:Warning: Warning Polys_30842 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush49.Model_15.Polys_30842 : Externally referenced 
+[2016.01.31-18.17.39:956][  0]MapCheck:Warning: Warning Polys_135 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush5.Model_15.Polys_135 : Externally referenced 
+[2016.01.31-18.17.39:956][  0]MapCheck:Warning: Warning Polys_31732 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush50.Model_15.Polys_31732 : Externally referenced 
+[2016.01.31-18.17.39:957][  0]MapCheck:Warning: Warning Polys_32638 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush51.Model_15.Polys_32638 : Externally referenced 
+[2016.01.31-18.17.39:957][  0]MapCheck:Warning: Warning Polys_32755 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush52.Model_15.Polys_32755 : Externally referenced 
+[2016.01.31-18.17.39:957][  0]MapCheck:Warning: Warning Polys_33576 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush53.Model_15.Polys_33576 : Externally referenced 
+[2016.01.31-18.17.39:957][  0]MapCheck:Warning: Warning Polys_36972 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush54.Model_15.Polys_36972 : Externally referenced 
+[2016.01.31-18.17.39:957][  0]MapCheck:Warning: Warning Polys_37609 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush55.Model_15.Polys_37609 : Externally referenced 
+[2016.01.31-18.17.39:957][  0]MapCheck:Warning: Warning Polys_38643 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush56.Model_15.Polys_38643 : Externally referenced 
+[2016.01.31-18.17.39:957][  0]MapCheck:Warning: Warning Polys_39300 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush57.Model_15.Polys_39300 : Externally referenced 
+[2016.01.31-18.17.39:957][  0]MapCheck:Warning: Warning Polys_39834 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush58.Model_15.Polys_39834 : Externally referenced 
+[2016.01.31-18.17.39:957][  0]MapCheck:Warning: Warning Polys_41996 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush59.Model_15.Polys_41996 : Externally referenced 
+[2016.01.31-18.17.39:957][  0]MapCheck:Warning: Warning Polys_206 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush6.Model_15.Polys_206 : Externally referenced 
+[2016.01.31-18.17.39:957][  0]MapCheck:Warning: Warning Polys_45199 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush60.Model_15.Polys_45199 : Externally referenced 
+[2016.01.31-18.17.39:957][  0]MapCheck:Warning: Warning Polys_45916 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush61.Model_15.Polys_45916 : Externally referenced 
+[2016.01.31-18.17.39:957][  0]MapCheck:Warning: Warning Polys_47658 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush62.Model_15.Polys_47658 : Externally referenced 
+[2016.01.31-18.17.39:957][  0]MapCheck:Warning: Warning Polys_51559 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush63.Model_15.Polys_51559 : Externally referenced 
+[2016.01.31-18.17.39:957][  0]MapCheck:Warning: Warning Polys_54243 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush64.Model_15.Polys_54243 : Externally referenced 
+[2016.01.31-18.17.39:958][  0]MapCheck:Warning: Warning Polys_57114 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush65.Model_15.Polys_57114 : Externally referenced 
+[2016.01.31-18.17.39:958][  0]MapCheck:Warning: Warning Polys_58187 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush66.Model_15.Polys_58187 : Externally referenced 
+[2016.01.31-18.17.39:958][  0]MapCheck:Warning: Warning Polys_62549 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush67.Model_15.Polys_62549 : Externally referenced 
+[2016.01.31-18.17.39:958][  0]MapCheck:Warning: Warning Polys_73612 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush68.Model_15.Polys_73612 : Externally referenced 
+[2016.01.31-18.17.39:958][  0]MapCheck:Warning: Warning Polys_83915 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush69.Model_15.Polys_83915 : Externally referenced 
+[2016.01.31-18.17.39:958][  0]MapCheck:Warning: Warning Polys_258 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush7.Model_15.Polys_258 : Externally referenced 
+[2016.01.31-18.17.39:958][  0]MapCheck:Warning: Warning Polys_86234 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush70.Model_15.Polys_86234 : Externally referenced 
+[2016.01.31-18.17.39:958][  0]MapCheck:Warning: Warning Polys_91873 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush71.Model_15.Polys_91873 : Externally referenced 
+[2016.01.31-18.17.39:958][  0]MapCheck:Warning: Warning Polys_92615 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush72.Model_15.Polys_92615 : Externally referenced 
+[2016.01.31-18.17.39:958][  0]MapCheck:Warning: Warning Polys_93365 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush73.Model_15.Polys_93365 : Externally referenced 
+[2016.01.31-18.17.39:958][  0]MapCheck:Warning: Warning Polys_94312 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush74.Model_15.Polys_94312 : Externally referenced 
+[2016.01.31-18.17.39:958][  0]MapCheck:Warning: Warning Polys_97575 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush75.Model_15.Polys_97575 : Externally referenced 
+[2016.01.31-18.17.39:958][  0]MapCheck:Warning: Warning Polys_100307 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush76.Model_15.Polys_100307 : Externally referenced 
+[2016.01.31-18.17.39:958][  0]MapCheck:Warning: Warning Polys_101491 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush77.Model_15.Polys_101491 : Externally referenced 
+[2016.01.31-18.17.39:958][  0]MapCheck:Warning: Warning Polys_102687 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush78.Model_15.Polys_102687 : Externally referenced 
+[2016.01.31-18.17.39:958][  0]MapCheck:Warning: Warning Polys_104498 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush79.Model_15.Polys_104498 : Externally referenced 
+[2016.01.31-18.17.39:958][  0]MapCheck:Warning: Warning Polys_314 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush8.Model_15.Polys_314 : Externally referenced 
+[2016.01.31-18.17.39:959][  0]MapCheck:Warning: Warning Polys_105109 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush80.Model_15.Polys_105109 : Externally referenced 
+[2016.01.31-18.17.39:959][  0]MapCheck:Warning: Warning Polys_111056 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush81.Model_15.Polys_111056 : Externally referenced 
+[2016.01.31-18.17.39:959][  0]MapCheck:Warning: Warning Polys_115230 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush82.Model_15.Polys_115230 : Externally referenced 
+[2016.01.31-18.17.39:959][  0]MapCheck:Warning: Warning Polys_116920 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush83.Model_15.Polys_116920 : Externally referenced 
+[2016.01.31-18.17.39:959][  0]MapCheck:Warning: Warning Polys_117774 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush84.Model_15.Polys_117774 : Externally referenced 
+[2016.01.31-18.17.39:959][  0]MapCheck:Warning: Warning Polys_118421 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush85.Model_15.Polys_118421 : Externally referenced 
+[2016.01.31-18.17.39:959][  0]MapCheck:Warning: Warning Polys_119942 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush86.Model_15.Polys_119942 : Externally referenced 
+[2016.01.31-18.17.39:959][  0]MapCheck:Warning: Warning Polys_127631 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush87.Model_15.Polys_127631 : Externally referenced 
+[2016.01.31-18.17.39:959][  0]MapCheck:Warning: Warning Polys_131647 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush88.Model_15.Polys_131647 : Externally referenced 
+[2016.01.31-18.17.39:959][  0]MapCheck:Warning: Warning Polys_138917 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush89.Model_15.Polys_138917 : Externally referenced 
+[2016.01.31-18.17.39:959][  0]MapCheck:Warning: Warning Polys_1512 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush9.Model_15.Polys_1512 : Externally referenced 
+[2016.01.31-18.17.39:959][  0]MapCheck:Warning: Warning Polys_139851 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush90.Model_15.Polys_139851 : Externally referenced 
+[2016.01.31-18.17.39:959][  0]MapCheck:Warning: Warning Polys_141498 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush91.Model_15.Polys_141498 : Externally referenced 
+[2016.01.31-18.17.39:959][  0]MapCheck:Warning: Warning Polys_143633 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush92.Model_15.Polys_143633 : Externally referenced 
+[2016.01.31-18.17.39:959][  0]MapCheck:Warning: Warning Polys_144113 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush93.Model_15.Polys_144113 : Externally referenced 
+[2016.01.31-18.17.39:959][  0]MapCheck:Warning: Warning Polys_147248 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush94.Model_15.Polys_147248 : Externally referenced 
+[2016.01.31-18.17.39:960][  0]MapCheck:Warning: Warning Polys_151883 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush95.Model_15.Polys_151883 : Externally referenced 
+[2016.01.31-18.17.39:960][  0]MapCheck:Warning: Warning Polys_153614 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush96.Model_15.Polys_153614 : Externally referenced 
+[2016.01.31-18.17.39:960][  0]MapCheck:Warning: Warning Polys_158889 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush97.Model_15.Polys_158889 : Externally referenced 
+[2016.01.31-18.17.39:960][  0]MapCheck:Warning: Warning Polys_163102 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush98.Model_15.Polys_163102 : Externally referenced 
+[2016.01.31-18.17.39:960][  0]MapCheck:Warning: Warning Polys_165160 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush99.Model_15.Polys_165160 : Externally referenced 
+[2016.01.31-18.17.39:960][  0]MapCheck:Warning: Warning Polys_75847 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.CurvedStairBrush.Model_5.Polys_75847 : Externally referenced 
+[2016.01.31-18.17.39:960][  0]MapCheck:Warning: Warning Polys_84979 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.CurvedStairBrush2.Model_5.Polys_84979 : Externally referenced 
+[2016.01.31-18.17.39:960][  0]MapCheck:Warning: Warning Polys_89675 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.CurvedStairBrush3.Model_5.Polys_89675 : Externally referenced 
+[2016.01.31-18.17.39:960][  0]MapCheck:Warning: Warning Polys_200148 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.CurvedStairBrush4.Model_13.Polys_200148 : Externally referenced 
+[2016.01.31-18.17.39:960][  0]MapCheck:Warning: Warning Polys_42957 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.CylinderBrush.Model_4.Polys_42957 : Externally referenced 
+[2016.01.31-18.17.39:960][  0]MapCheck:Warning: Warning Polys_153521 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.CylinderBrush10_32.Model_11.Polys_153521 : Externally referenced 
+[2016.01.31-18.17.39:960][  0]MapCheck:Warning: Warning Polys_158078 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.CylinderBrush11_36.Model_11.Polys_158078 : Externally referenced 
+[2016.01.31-18.17.39:960][  0]MapCheck:Warning: Warning Polys_148623 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.CylinderBrush12.Model_11.Polys_148623 : Externally referenced 
+[2016.01.31-18.17.39:960][  0]MapCheck:Warning: Warning Polys_153527 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.CylinderBrush13.Model_11.Polys_153527 : Externally referenced 
+[2016.01.31-18.17.39:960][  0]MapCheck:Warning: Warning Polys_158084 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.CylinderBrush14.Model_11.Polys_158084 : Externally referenced 
+[2016.01.31-18.17.39:960][  0]MapCheck:Warning: Warning Polys_168908 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.CylinderBrush15.Model_14.Polys_168908 : Externally referenced 
+[2016.01.31-18.17.39:960][  0]MapCheck:Warning: Warning Polys_211868 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.CylinderBrush16.Model_14.Polys_211868 : Externally referenced 
+[2016.01.31-18.17.39:960][  0]MapCheck:Warning: Warning Polys_2431 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.CylinderBrush17.Model_14.Polys_2431 : Externally referenced 
+[2016.01.31-18.17.39:961][  0]MapCheck:Warning: Warning Polys_181570 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.CylinderBrush19.Model_12.Polys_181570 : Externally referenced 
+[2016.01.31-18.17.39:961][  0]MapCheck:Warning: Warning Polys_65767 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.CylinderBrush2.Model_4.Polys_65767 : Externally referenced 
+[2016.01.31-18.17.39:961][  0]MapCheck:Warning: Warning Polys_67725 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.CylinderBrush3.Model_4.Polys_67725 : Externally referenced 
+[2016.01.31-18.17.39:961][  0]MapCheck:Warning: Warning Polys_135024 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.CylinderBrush4.Model_4.Polys_135024 : Externally referenced 
+[2016.01.31-18.17.39:961][  0]MapCheck:Warning: Warning Polys_174977 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.CylinderBrush5.Model_4.Polys_174977 : Externally referenced 
+[2016.01.31-18.17.39:961][  0]MapCheck:Warning: Warning Polys_211831 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.CylinderBrush6.Model_14.Polys_211831 : Externally referenced 
+[2016.01.31-18.17.39:961][  0]MapCheck:Warning: Warning Polys_67967 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.CylinderBrush7.Model_14.Polys_67967 : Externally referenced 
+[2016.01.31-18.17.39:961][  0]MapCheck:Warning: Warning Polys_119683 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.CylinderBrush8.Model_14.Polys_119683 : Externally referenced 
+[2016.01.31-18.17.39:961][  0]MapCheck:Warning: Warning Polys_137061 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.CylinderBrush9.Model_11.Polys_137061 : Externally referenced 
+[2016.01.31-18.17.39:961][  0]MapCheck:Warning: Warning Polys_3432 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Door.Model_13.Polys_3432 : Externally referenced 
+[2016.01.31-18.17.39:961][  0]MapCheck:Warning: Warning Polys_75153 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Door10.Model_13.Polys_75153 : Externally referenced 
+[2016.01.31-18.17.39:961][  0]MapCheck:Warning: Warning Polys_96415 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Door11.Model_13.Polys_96415 : Externally referenced 
+[2016.01.31-18.17.39:961][  0]MapCheck:Warning: Warning Polys_124101 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Door12_106.Model_13.Polys_124101 : Externally referenced 
+[2016.01.31-18.17.39:961][  0]MapCheck:Warning: Warning Polys_125198 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Door13.Model_13.Polys_125198 : Externally referenced 
+[2016.01.31-18.17.39:961][  0]MapCheck:Warning: Warning Polys_136842 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Door14.Model_13.Polys_136842 : Externally referenced 
+[2016.01.31-18.17.39:961][  0]MapCheck:Warning: Warning Polys_137760 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Door15.Model_13.Polys_137760 : Externally referenced 
+[2016.01.31-18.17.39:961][  0]MapCheck:Warning: Warning Polys_150166 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Door16.Model_13.Polys_150166 : Externally referenced 
+[2016.01.31-18.17.39:961][  0]MapCheck:Warning: Warning Polys_155608 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Door17.Model_13.Polys_155608 : Externally referenced 
+[2016.01.31-18.17.39:962][  0]MapCheck:Warning: Warning Polys_157116 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Door18.Model_13.Polys_157116 : Externally referenced 
+[2016.01.31-18.17.39:962][  0]MapCheck:Warning: Warning Polys_169342 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Door19.Model_13.Polys_169342 : Externally referenced 
+[2016.01.31-18.17.39:962][  0]MapCheck:Warning: Warning Polys_34887 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Door2.Model_13.Polys_34887 : Externally referenced 
+[2016.01.31-18.17.39:962][  0]MapCheck:Warning: Warning Polys_172006 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Door20.Model_13.Polys_172006 : Externally referenced 
+[2016.01.31-18.17.39:962][  0]MapCheck:Warning: Warning Polys_173891 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Door21.Model_13.Polys_173891 : Externally referenced 
+[2016.01.31-18.17.39:962][  0]MapCheck:Warning: Warning Polys_177163 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Door22.Model_13.Polys_177163 : Externally referenced 
+[2016.01.31-18.17.39:962][  0]MapCheck:Warning: Warning Polys_181858 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Door23.Model_13.Polys_181858 : Externally referenced 
+[2016.01.31-18.17.39:962][  0]MapCheck:Warning: Warning Polys_178532 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Door24.Model_13.Polys_178532 : Externally referenced 
+[2016.01.31-18.17.39:962][  0]MapCheck:Warning: Warning Polys_45293 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Door25.Model_13.Polys_45293 : Externally referenced 
+[2016.01.31-18.17.39:962][  0]MapCheck:Warning: Warning Polys_36099 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Door3.Model_13.Polys_36099 : Externally referenced 
+[2016.01.31-18.17.39:962][  0]MapCheck:Warning: Warning Polys_36470 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Door4.Model_13.Polys_36470 : Externally referenced 
+[2016.01.31-18.17.39:962][  0]MapCheck:Warning: Warning Polys_44351 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Door5.Model_13.Polys_44351 : Externally referenced 
+[2016.01.31-18.17.39:962][  0]MapCheck:Warning: Warning Polys_61134 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Door6.Model_13.Polys_61134 : Externally referenced 
+[2016.01.31-18.17.39:962][  0]MapCheck:Warning: Warning Polys_63028 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Door7.Model_13.Polys_63028 : Externally referenced 
+[2016.01.31-18.17.39:962][  0]MapCheck:Warning: Warning Polys_68387 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Door8.Model_13.Polys_68387 : Externally referenced 
+[2016.01.31-18.17.39:962][  0]MapCheck:Warning: Warning Polys_69892 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Door9.Model_13.Polys_69892 : Externally referenced 
+[2016.01.31-18.17.39:962][  0]MapCheck:Warning: Warning Polys_1051 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.LinearStairBrush.Model_7.Polys_1051 : Externally referenced 
+[2016.01.31-18.17.39:962][  0]MapCheck:Warning: Warning Polys_145703 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.LinearStairBrush2_6.Model_7.Polys_145703 : Externally referenced 
+[2016.01.31-18.17.39:962][  0]MapCheck:Warning: Warning Polys_147241 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.LinearStairBrush3_8.Model_7.Polys_147241 : Externally referenced 
+[2016.01.31-18.17.39:963][  0]MapCheck:Warning: Warning Polys_82978 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.LinearStairBrush4.Model_8.Polys_82978 : Externally referenced 
+[2016.01.31-18.17.39:963][  0]MapCheck:Warning: Warning Polys_100635 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.LinearStairBrush5.Model_8.Polys_100635 : Externally referenced 
+[2016.01.31-18.17.39:963][  0]MapCheck:Warning: Warning Polys_209890 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.SpiralStairBrush2.Model_13.Polys_209890 : Externally referenced 
+[2016.01.31-18.17.39:963][  0]MapCheck:Warning: Warning Polys_158686 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Templeout2.Model_10.Polys_158686 : Externally referenced 
+[2016.01.31-18.17.39:963][  0]MapCheck:Warning: Warning Polys_160232 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Templeout3.Model_10.Polys_160232 : Externally referenced 
+[2016.01.31-18.17.39:963][  0]MapCheck:Warning: Warning Polys_160853 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Templeout4.Model_10.Polys_160853 : Externally referenced 
+[2016.01.31-18.17.39:963][  0]MapCheck:Warning: Warning Polys_162411 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Templeout5.Model_10.Polys_162411 : Externally referenced 
+[2016.01.31-18.17.39:963][  0]MapCheck:Warning: Warning Polys_2277 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Wall_E.Model_10.Polys_2277 : Externally referenced 
+[2016.01.31-18.17.39:963][  0]MapCheck:Warning: Warning Polys_2049 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Wall_S.Model_10.Polys_2049 : Externally referenced 
+[2016.01.31-18.17.39:963][  0]MapCheck:Warning: Warning Polys_199567 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Wall_S11.Model_10.Polys_199567 : Externally referenced 
+[2016.01.31-18.17.39:963][  0]MapCheck:Warning: Warning Polys_21010 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Wall_S12.Model_10.Polys_21010 : Externally referenced 
+[2016.01.31-18.17.39:963][  0]MapCheck:Warning: Warning Polys_29053 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Wall_S13.Model_10.Polys_29053 : Externally referenced 
+[2016.01.31-18.17.39:963][  0]MapCheck:Warning: Warning Polys_35459 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Wall_S14.Model_10.Polys_35459 : Externally referenced 
+[2016.01.31-18.17.39:963][  0]MapCheck:Warning: Warning Polys_58936 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Wall_S15.Model_10.Polys_58936 : Externally referenced 
+[2016.01.31-18.17.39:963][  0]MapCheck:Warning: Warning Polys_58939 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Wall_S16.Model_10.Polys_58939 : Externally referenced 
+[2016.01.31-18.17.39:963][  0]MapCheck:Warning: Warning Polys_58942 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Wall_S17.Model_10.Polys_58942 : Externally referenced 
+[2016.01.31-18.17.39:963][  0]MapCheck:Warning: Warning Polys_87897 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Wall_S18.Model_10.Polys_87897 : Externally referenced 
+[2016.01.31-18.17.39:963][  0]MapCheck:Warning: Warning Polys_96372 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Wall_S19.Model_10.Polys_96372 : Externally referenced 
+[2016.01.31-18.17.39:964][  0]MapCheck:Warning: Warning Polys_16569 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Wall_S2.Model_10.Polys_16569 : Externally referenced 
+[2016.01.31-18.17.39:964][  0]MapCheck:Warning: Warning Polys_105636 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Wall_S20.Model_10.Polys_105636 : Externally referenced 
+[2016.01.31-18.17.39:964][  0]MapCheck:Warning: Warning Polys_112460 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Wall_S21.Model_10.Polys_112460 : Externally referenced 
+[2016.01.31-18.17.39:964][  0]MapCheck:Warning: Warning Polys_242409 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Wall_S22.Model_10.Polys_242409 : Externally referenced 
+[2016.01.31-18.17.39:964][  0]MapCheck:Warning: Warning Polys_23412 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Wall_S3.Model_10.Polys_23412 : Externally referenced 
+[2016.01.31-18.17.39:964][  0]MapCheck:Warning: Warning Polys_23989 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Wall_S4.Model_10.Polys_23989 : Externally referenced 
+[2016.01.31-18.17.39:964][  0]MapCheck:Warning: Warning Polys_28905 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Wall_S5.Model_10.Polys_28905 : Externally referenced 
+[2016.01.31-18.17.39:964][  0]MapCheck:Warning: Warning Polys_41232 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Wall_S6.Model_10.Polys_41232 : Externally referenced 
+[2016.01.31-18.17.39:964][  0]MapCheck:Warning: Warning Polys_47175 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Wall_S7.Model_10.Polys_47175 : Externally referenced 
+[2016.01.31-18.17.39:964][  0]MapCheck:Warning: Warning Polys_47776 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Wall_S8.Model_10.Polys_47776 : Externally referenced 
+[2016.01.31-18.17.39:964][  0]MapCheck:Warning: Warning Polys_51391 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Wall_S9.Model_10.Polys_51391 : Externally referenced 
+[2016.01.31-18.17.39:964][  0]MapCheck:Warning: Warning Polys_2297 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Wall_W.Model_10.Polys_2297 : Externally referenced 
+[2016.01.31-18.17.39:964][  0]MapCheck:Warning: Warning ModelComponent_3 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_3 : Externally referenced 
+[2016.01.31-18.17.39:964][  0]MapCheck:Warning: Warning ModelComponent_4 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_4 : Externally referenced 
+[2016.01.31-18.17.39:964][  0]MapCheck:Warning: Warning ModelComponent_5 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_5 : Externally referenced 
+[2016.01.31-18.17.39:964][  0]MapCheck:Warning: Warning Model_0 Model /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Model_0 : Externally referenced 
+[2016.01.31-18.17.39:964][  0]MapCheck:Warning: Warning Polys_161551 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.SpiralStairBrush.Model_13.Polys_161551 : Externally referenced 
+[2016.01.31-18.17.39:964][  0]MapCheck:Warning: Warning Polys_413 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.SpiralStairBrush3.Model_13.Polys_413 : Externally referenced 
+[2016.01.31-18.17.39:965][  0]MapCheck:Warning: Warning ModelComponent_11 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_11 : Externally referenced 
+[2016.01.31-18.17.39:965][  0]MapCheck:Warning: Warning ModelComponent_15 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_15 : Externally referenced 
+[2016.01.31-18.17.39:965][  0]MapCheck:Warning: Warning ModelComponent_16 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_16 : Externally referenced 
+[2016.01.31-18.17.39:965][  0]MapCheck:Warning: Warning ModelComponent_17 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_17 : Externally referenced 
+[2016.01.31-18.17.39:965][  0]MapCheck:Warning: Warning ModelComponent_23 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_23 : Externally referenced 
+[2016.01.31-18.17.39:965][  0]MapCheck:Warning: Warning ModelComponent_24 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_24 : Externally referenced 
+[2016.01.31-18.17.39:965][  0]MapCheck:Warning: Warning ModelComponent_26 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_26 : Externally referenced 
+[2016.01.31-18.17.39:965][  0]MapCheck:Warning: Warning ModelComponent_27 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_27 : Externally referenced 
+[2016.01.31-18.17.39:965][  0]MapCheck:Warning: Warning ModelComponent_31 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_31 : Externally referenced 
+[2016.01.31-18.17.39:965][  0]MapCheck:Warning: Warning ModelComponent_41 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_41 : Externally referenced 
+[2016.01.31-18.17.39:965][  0]MapCheck:Warning: Warning ModelComponent_44 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_44 : Externally referenced 
+[2016.01.31-18.17.39:965][  0]MapCheck:Warning: Warning ModelComponent_55 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_55 : Externally referenced 
+[2016.01.31-18.17.39:965][  0]MapCheck:Warning: Warning ModelComponent_56 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_56 : Externally referenced 
+[2016.01.31-18.17.39:965][  0]MapCheck:Warning: Warning ModelComponent_58 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_58 : Externally referenced 
+[2016.01.31-18.17.39:965][  0]MapCheck:Warning: Warning ModelComponent_59 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_59 : Externally referenced 
+[2016.01.31-18.17.39:965][  0]MapCheck:Warning: Warning ModelComponent_63 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_63 : Externally referenced 
+[2016.01.31-18.17.39:965][  0]MapCheck:Warning: Warning ModelComponent_67 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_67 : Externally referenced 
+[2016.01.31-18.17.39:966][  0]MapCheck:Warning: Warning ModelComponent_68 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_68 : Externally referenced 
+[2016.01.31-18.17.39:966][  0]MapCheck:Warning: Warning ModelComponent_7 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_7 : Externally referenced 
+[2016.01.31-18.17.39:966][  0]MapCheck:Warning: Warning ModelComponent_71 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_71 : Externally referenced 
+[2016.01.31-18.17.39:966][  0]MapCheck:Warning: Warning ModelComponent_79 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_79 : Externally referenced 
+[2016.01.31-18.17.39:966][  0]MapCheck:Warning: Warning ModelComponent_82 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_82 : Externally referenced 
+[2016.01.31-18.17.39:966][  0]MapCheck:Warning: Warning ModelComponent_84 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_84 : Externally referenced 
+[2016.01.31-18.17.39:966][  0]MapCheck:Warning: Warning ModelComponent_85 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_85 : Externally referenced 
+[2016.01.31-18.17.39:966][  0]MapCheck:Warning: Warning ModelComponent_86 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_86 : Externally referenced 
+[2016.01.31-18.17.39:966][  0]MapCheck:Warning: Warning Model_0 Model /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Model_0 : Externally referenced 
+[2016.01.31-18.17.39:966][  0]MapCheck:Warning: Warning Polys_2168 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush2.Model_11.Polys_2168 : Externally referenced 
+[2016.01.31-18.17.39:966][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Bluebird2_66.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:966][  0]MapCheck:Warning: Warning ModelComponent_38 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_38 : Externally referenced 
+[2016.01.31-18.17.39:966][  0]MapCheck:Warning: Warning ModelComponent_6 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_6 : Externally referenced 
+[2016.01.31-18.17.39:966][  0]MapCheck:Warning: Warning Model_0 Model /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Model_0 : Externally referenced 
+[2016.01.31-18.17.39:966][  0]MapCheck:Warning: Warning Polys_128800 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush114.Model_10.Polys_128800 : Externally referenced 
+[2016.01.31-18.17.39:966][  0]MapCheck:Warning: Warning Polys_137750 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush149.Model_11.Polys_137750 : Externally referenced 
+[2016.01.31-18.17.39:966][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Gold_Bird2_63.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:966][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Gold_Bird3_16.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:967][  0]MapCheck:Warning: Warning ModelComponent_76 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_76 : Externally referenced 
+[2016.01.31-18.17.39:967][  0]MapCheck:Warning: Warning Model_0 Model /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Model_0 : Externally referenced 
+[2016.01.31-18.17.39:967][  0]MapCheck:Warning: Warning Polys_300306 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush159.Model_31.Polys_300306 : Externally referenced 
+[2016.01.31-18.17.39:967][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Redbird2_60.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:967][  0]MapCheck:Warning: Warning ModelComponent_60 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_60 : Externally referenced 
+[2016.01.31-18.17.39:967][  0]MapCheck:Warning: Warning Model_0 Model /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Model_0 : Externally referenced 
+[2016.01.31-18.17.39:967][  0]MapCheck:Warning: Warning Polys_45293 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Door25.Model_13.Polys_45293 : Externally referenced 
+[2016.01.31-18.17.39:967][  0]MapCheck:Warning: Warning NewTextRenderComponent TextRenderComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.TemplateLabel.NewTextRenderComponent : Externally referenced 
+[2016.01.31-18.17.39:967][  0]MapCheck:Warning: Warning ModelComponent_75 ModelComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.ModelComponent_75 : Externally referenced 
+[2016.01.31-18.17.39:967][  0]MapCheck:Warning: Warning Model_0 Model /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Model_0 : Externally referenced 
+[2016.01.31-18.17.39:967][  0]MapCheck:Warning: Warning Polys_10721 Polys /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.BoxBrush29.Model_15.Polys_10721 : Externally referenced 
+[2016.01.31-18.17.39:967][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.SM_Fire_Flag_01_16.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:967][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.SM_Fire_Flag_2.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:967][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.SM_pot4_19.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:967][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.SM_pot5_22.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:967][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.SM_pot6_25.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:967][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.SM_pot7_28.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:967][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.SM_pot8_31.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:968][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.SM_pot9_34.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:968][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.SM_POC_Blockout_CliffRocks01_46.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:968][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.SM_POC_Blockout_CliffRocks2.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:968][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.SM_POC_Blockout_CliffRocks3.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:968][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.SM_Env_Fire_OddsnEnds_Minecart003_20.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:968][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.SM_Env_Fire_OddsnEnds_Pillar1_dam2_23.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:968][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.SM_Fire_Fort_Bricks_81.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:968][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.SM_Fire_Fort_Bricks_78.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:968][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Fire_Torchier_23.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:968][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.SM_Plains_CastleArch_Iron_Gate_01_10.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:968][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Bluebird2_66.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:968][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Bluebird3_7.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:968][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Bluefish3_11.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:968][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Bluefish4_30.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:968][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Bluefish5_51.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:968][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Bluefish6_47.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:968][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Calendar2_57.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:968][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Calendar_75.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:968][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Cleaning_cone_10.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:969][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Cleaning_cone_11.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:969][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Cleaning_cone_12.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:969][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Cleaning_cone_13.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:969][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Cleaning_cone_14.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:969][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Cleaning_cone_4.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:969][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Cleaning_cone_5.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:969][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Cleaning_cone_58.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:969][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Cleaning_cone_6.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:969][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Cleaning_cone_7.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:969][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Cleaning_cone_8.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:969][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Cleaning_cone_9.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:969][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Gold_Bird2_63.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:969][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Gold_Bird3_16.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:969][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.GorL10_19.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:969][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.GorL11.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:969][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.GorL12.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:969][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.GorL13.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:969][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.GorL2_14.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:970][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.GorL3_24.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:970][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.GorL4_39.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:970][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.GorL5_48.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:970][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.GorL6_57.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:970][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.GorL7_63.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:970][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.GorL8_69.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:970][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.GorL9_94.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:970][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Greenfish2_27.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:970][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Greenfish3_33.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:970][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Greenfish4_60.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:970][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Greenfish5_35.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:970][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Greenfish_4.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:970][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Greensnake3_17.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:970][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Greensnake4_42.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:970][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Greensnake5_97.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:970][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Greensnake7_44.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:970][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Tongueoutman5_100.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:971][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Redbird2_60.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:971][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Redbird3_10.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:971][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Sun_14.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:971][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Sun_50.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:971][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Greensnake6_106.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:971][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Tongueoutman2_36.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:971][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Tongueoutman3_54.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:971][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Tongueoutman4_72.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:971][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Tongueoutman6_41.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:971][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Yellowflower2_45.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:971][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Yellowflower3_66.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:971][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Yellowflower4_75.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:972][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Yellowflower5_91.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:972][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Yellowflower6_103.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:972][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Aztecv13.Aztecv13:PersistentLevel.Yellowflower7_38.StaticMeshComponent0 : Externally referenced 
+[2016.01.31-18.17.39:972][  0]MapCheck: Info Map check complete: 0 Error(s), 456 Warning(s), took 2,497.965ms to complete.
+[2016.01.31-18.17.39:982][  0]LogFileHelpers: Loading map 'Aztecv13' took 3.563
+[2016.01.31-18.17.40:113][  0]LogCollectionManager: Loaded 0 collections in 0.002667 seconds
+[2016.01.31-18.17.40:157][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Saved/Collections/' took 0.01s
+[2016.01.31-18.17.40:157][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Content/Developers/Joe/Collections/' took 0.01s
+[2016.01.31-18.17.40:157][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Content/Collections/' took 0.01s
+[2016.01.31-18.17.40:157][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.01.31-18.17.40:172][  0]LogContentBrowser: Native class hierarchy populated in 0.0144 seconds. Added 1893 classes and 338 folders.
+[2016.01.31-18.17.40:181][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.01.31-18.17.40:241][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.01.31-18.17.40:245][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.01.31-18.17.40:275][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.31-18.17.40:281][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.31-18.17.40:289][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.31-18.17.40:312][  0]LogLoad: Full Startup: 9.81 seconds (BP compile: 0.07 seconds)
+[2016.01.31-18.17.40:324][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.01.31-18.17.40:365][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.01.31-18.17.40:521][  0]LogRenderer: Reallocating scene render targets to support 1736x808 (Frame:2).
+[2016.01.31-18.17.41:214][ 17]LogAssetRegistry: Asset discovery search completed in 6.2422 seconds
+[2016.01.31-18.17.41:214][ 17]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.01.31-18.17.41:214][ 17]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2016.01.31-18.17.51:276][432]LogSavePackage: Save=2403.551514ms
+[2016.01.31-18.17.51:276][432]LogSavePackage: Moving 'C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Saved/UEDPCAztecv13BE302BD44914F311891CB2B37C023AFB.tmp' to 'C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Saved/Autosaves/Game/Maps/UEDPCAztecv13.umap'
+[2016.01.31-18.17.51:280][432]LogSavePackage: Total save time: 2446.917225ms
+[2016.01.31-18.17.51:280][432]LogSavePackage:Display: Finished SavePackage C:/Users/Joe/Documents/Unreal Projects/Baller/MyProject6 4.10/Saved/Autosaves/Game/Maps/UEDPCAztecv13.umap
+[2016.01.31-18.20.42:424][155]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.31-18.20.42:669][156]Cmd: QUIT_EDITOR
+[2016.01.31-18.20.42:844][156]LogExit: Preparing to exit.
+[2016.01.31-18.20.43:993][156]LogExit: Editor shut down
+[2016.01.31-18.20.43:993][156]LogExit: Transaction tracking system shut down
+[2016.01.31-18.20.44:000][156]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C0755672E0
+[2016.01.31-18.20.44:001][156]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C0040AE160
+[2016.01.31-18.20.44:001][156]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C005051300
+[2016.01.31-18.20.44:001][156]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C0050500E0
+[2016.01.31-18.20.44:238][156]LogExit: Object subsystem successfully closed.
+[2016.01.31-18.20.44:247][156]LogD3D11RHI: Shutdown
+[2016.01.31-18.20.44:247][156]LogD3D11RHI: CleanupD3DDevice
+[2016.01.31-18.20.44:320][156]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.01.31-18.20.44:334][156]LogModuleManager: Shutting down and abandoning module CookingStats (199)
+[2016.01.31-18.20.44:335][156]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.01.31-18.20.44:335][156]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.01.31-18.20.44:335][156]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.01.31-18.20.44:335][156]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.01.31-18.20.44:335][156]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.01.31-18.20.44:336][156]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.01.31-18.20.44:336][156]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.01.31-18.20.44:336][156]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.01.31-18.20.44:336][156]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.01.31-18.20.44:336][156]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.01.31-18.20.44:336][156]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.01.31-18.20.44:336][156]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.01.31-18.20.44:336][156]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.01.31-18.20.44:336][156]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.01.31-18.20.44:336][156]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.01.31-18.20.44:336][156]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.01.31-18.20.44:336][156]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.01.31-18.20.44:336][156]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.01.31-18.20.44:336][156]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.01.31-18.20.44:336][156]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.01.31-18.20.44:337][156]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.01.31-18.20.44:337][156]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.01.31-18.20.44:337][156]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.01.31-18.20.44:337][156]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.01.31-18.20.44:337][156]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.01.31-18.20.44:337][156]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.01.31-18.20.45:190][156]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.01.31-18.20.45:190][156]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.01.31-18.20.45:190][156]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.01.31-18.20.45:190][156]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.01.31-18.20.45:190][156]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.01.31-18.20.45:190][156]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.01.31-18.20.45:190][156]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.01.31-18.20.45:190][156]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.01.31-18.20.45:190][156]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.01.31-18.20.45:190][156]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.01.31-18.20.45:190][156]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.01.31-18.20.45:190][156]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.01.31-18.20.45:190][156]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.01.31-18.20.45:190][156]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.01.31-18.20.45:190][156]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.01.31-18.20.45:190][156]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.01.31-18.20.45:190][156]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.01.31-18.20.45:190][156]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.01.31-18.20.45:190][156]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.01.31-18.20.45:191][156]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.01.31-18.20.45:191][156]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.01.31-18.20.45:191][156]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.01.31-18.20.45:191][156]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.01.31-18.20.45:191][156]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.01.31-18.20.45:191][156]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.01.31-18.20.45:191][156]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.01.31-18.20.45:191][156]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.01.31-18.20.45:191][156]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.01.31-18.20.45:191][156]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.01.31-18.20.45:191][156]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.01.31-18.20.45:191][156]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.01.31-18.20.45:191][156]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.01.31-18.20.45:191][156]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.01.31-18.20.45:191][156]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.01.31-18.20.45:191][156]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.01.31-18.20.45:191][156]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.01.31-18.20.45:191][156]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.01.31-18.20.45:191][156]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.01.31-18.20.45:191][156]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.01.31-18.20.45:191][156]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.01.31-18.20.45:191][156]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.01.31-18.20.45:191][156]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.01.31-18.20.45:191][156]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.01.31-18.20.45:191][156]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.01.31-18.20.45:191][156]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.01.31-18.20.45:191][156]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.01.31-18.20.45:191][156]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.01.31-18.20.45:191][156]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.01.31-18.20.45:191][156]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.01.31-18.20.45:191][156]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.01.31-18.20.45:389][156]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.01.31-18.20.45:389][156]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.01.31-18.20.45:389][156]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.01.31-18.20.45:389][156]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.01.31-18.20.45:389][156]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.01.31-18.20.45:389][156]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.01.31-18.20.45:389][156]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.01.31-18.20.45:389][156]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.01.31-18.20.45:418][156]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.01.31-18.20.45:418][156]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.01.31-18.20.45:418][156]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.01.31-18.20.45:418][156]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.01.31-18.20.45:418][156]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.01.31-18.20.45:418][156]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.01.31-18.20.45:418][156]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.01.31-18.20.45:418][156]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.01.31-18.20.45:418][156]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.01.31-18.20.45:419][156]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.01.31-18.20.45:419][156]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.01.31-18.20.45:419][156]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.01.31-18.20.45:419][156]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.01.31-18.20.45:419][156]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.01.31-18.20.45:419][156]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.01.31-18.20.45:419][156]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.01.31-18.20.45:419][156]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.01.31-18.20.45:419][156]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.01.31-18.20.45:419][156]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.01.31-18.20.45:419][156]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.01.31-18.20.45:419][156]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.01.31-18.20.45:419][156]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.01.31-18.20.45:419][156]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.01.31-18.20.45:419][156]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.01.31-18.20.45:421][156]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.01.31-18.20.45:422][156]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.01.31-18.20.45:648][156]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.01.31-18.20.45:649][156]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.01.31-18.20.45:649][156]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.01.31-18.20.45:749][156]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.01.31-18.20.45:749][156]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.01.31-18.20.45:749][156]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.01.31-18.20.45:756][156]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.01.31-18.20.45:756][156]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.01.31-18.20.45:756][156]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.01.31-18.20.45:756][156]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.01.31-18.20.45:756][156]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.01.31-18.20.45:756][156]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.01.31-18.20.45:756][156]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.01.31-18.20.45:756][156]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.01.31-18.20.45:756][156]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.01.31-18.20.45:756][156]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.01.31-18.20.45:756][156]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.01.31-18.20.45:756][156]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.01.31-18.20.45:756][156]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.01.31-18.20.45:756][156]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.01.31-18.20.45:756][156]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.01.31-18.20.45:756][156]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.01.31-18.20.45:759][156]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.01.31-18.20.45:759][156]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.01.31-18.20.45:759][156]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.01.31-18.20.45:759][156]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.01.31-18.20.45:759][156]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.01.31-18.20.45:759][156]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.01.31-18.20.45:759][156]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.01.31-18.20.45:759][156]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.01.31-18.20.45:759][156]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.01.31-18.20.45:759][156]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.01.31-18.20.45:799][156]LogDerivedDataCache: Shutdown
+[2016.01.31-18.20.45:799][156]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.01.31-18.20.45:799][156]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.01.31-18.20.45:799][156]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.01.31-18.20.45:799][156]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.01.31-18.20.45:799][156]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.01.31-18.20.45:799][156]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.01.31-18.20.45:799][156]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.01.31-18.20.45:799][156]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.01.31-18.20.45:799][156]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.01.31-18.20.45:799][156]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.01.31-18.20.45:799][156]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.01.31-18.20.45:799][156]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.01.31-18.20.45:799][156]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.01.31-18.20.45:799][156]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.01.31-18.20.45:799][156]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.01.31-18.20.45:799][156]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.01.31-18.20.45:799][156]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.01.31-18.20.45:799][156]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.01.31-18.20.45:799][156]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.01.31-18.20.45:799][156]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.01.31-18.20.45:799][156]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.01.31-18.20.45:799][156]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.01.31-18.20.45:799][156]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.01.31-18.20.45:799][156]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.01.31-18.20.45:799][156]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.01.31-18.20.45:799][156]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.01.31-18.20.45:799][156]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.01.31-18.20.45:799][156]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.01.31-18.20.45:799][156]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.01.31-18.20.45:799][156]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.01.31-18.20.45:799][156]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.01.31-18.20.45:799][156]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.01.31-18.20.45:800][156]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.01.31-18.20.45:800][156]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.01.31-18.20.45:800][156]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.01.31-18.20.45:800][156]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.01.31-18.20.45:800][156]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.01.31-18.20.47:803][156]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.01.31-18.20.47:803][156]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.01.31-18.20.47:803][156]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.01.31-18.20.47:803][156]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.01.31-18.20.47:803][156]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.01.31-18.20.47:803][156]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.01.31-18.20.47:803][156]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.01.31-18.20.47:804][156]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.01.31-18.20.47:804][156]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.01.31-18.20.47:804][156]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.01.31-18.20.47:804][156]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.01.31-18.20.47:804][156]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.01.31-18.20.47:804][156]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.01.31-18.20.47:804][156]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.01.31-18.20.47:805][156]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.01.31-18.20.47:805][156]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.01.31-18.20.47:805][156]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.01.31-18.20.47:806][156]LogExit: Exiting.
+[2016.01.31-18.20.47:808][156]Log file closed, 01/31/16 18:20:47
